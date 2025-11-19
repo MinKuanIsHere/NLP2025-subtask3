@@ -1,0 +1,300 @@
+{"ID": "6724235:S003", "Quadruplet": [{"Aspect": "[SEP]null", "Category": "LAPTOP#PRICE", "Opinion": "白說單就cpu", "VA": "4.89#5.54"}]}
+{"ID": "6918097:S012", "Quadruplet": [{"Aspect": "razerblade", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "##2024有16", "VA": "6.13#6.01"}, {"Aspect": "算是很輕", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "的重量", "VA": "5.07#5.34"}]}
+{"ID": "6776730:S362", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "同樣表現出色的快", "VA": "6.09#6.02"}]}
+{"ID": "7109657:S059", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothetargetentity", "VA": "6.29#5.88"}]}
+{"ID": "6916478:S005", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "薄，我都貼", "VA": "6.14#6.07"}, {"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothe", "VA": "5.95#5.61"}]}
+{"ID": "7010970:S045", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "tothe", "VA": "5.43#5.38"}]}
+{"ID": "6875997:S004", "Quadruplet": [{"Aspect": "isa", "Category": "LAPTOP#PORTABILITY", "Opinion": "bethe", "VA": "6.18#5.55"}, {"Aspect": "fromthecontext", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "[SEP]", "VA": "6.02#5.36"}]}
+{"ID": "6815708:S005", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "precisewordsequencefromthe", "VA": "5.58#5.57"}]}
+{"ID": "6730003:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "text?Thisis", "VA": "5.95#5.75"}, {"Aspect": ")ismentionedinthe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "text?Thisis", "VA": "5.75#5.71"}, {"Aspect": "fromthe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[SEP]null在這邊", "VA": "5.71#5.91"}]}
+{"ID": "6782540:S323", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityor", "VA": "7.2#6.39"}, {"Aspect": "[UNK]sequencereferringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityor", "VA": "6.8#6.34"}]}
+{"ID": "6788726:S088", "Quadruplet": [{"Aspect": "[UNK][UNK]", "Category": "LAPTOP#PRICE", "Opinion": "Theoutputmustbe", "VA": "5.51#5.93"}]}
+{"ID": "6957364:S023", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "referringtothe", "VA": "6.13#6.02"}]}
+{"ID": "6864259:S015", "Quadruplet": []}
+{"ID": "6837523:S027", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "tothetargetentityor", "VA": "6.05#5.69"}]}
+{"ID": "6770323:S001", "Quadruplet": [{"Aspect": "thetext", "Category": "LAPTOP#PRICE", "Opinion": "[UNK][UNK]task", "VA": "5.14#5.7"}, {"Aspect": "thetext", "Category": "LAPTOP#PRICE", "Opinion": "?Thisisa[UNK][UNK]task", "VA": "5.2#5.84"}, {"Aspect": "outputmustbethe", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": ".[SEP]null", "VA": "5.68#6.22"}, {"Aspect": "wordsequencefromthe", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": ".[SEP]null", "VA": "5.59#6.01"}]}
+{"ID": "7076622:S015", "Quadruplet": [{"Aspect": "outputmust", "Category": "LAPTOP#PORTABILITY", "Opinion": "fromthecontext.[SEP]", "VA": "5.44#5.21"}]}
+{"ID": "6840326:S040", "Quadruplet": []}
+{"ID": "7014871:S009", "Quadruplet": [{"Aspect": "targetentity", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "orits[UNK])is", "VA": "6.22#6.06"}]}
+{"ID": "6930482:S007", "Quadruplet": [{"Aspect": "targetentityorits[UNK])ismentioned", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "Thisisa", "VA": "5.83#5.99"}, {"Aspect": "text?", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "Thisisa", "VA": "6.02#5.96"}]}
+{"ID": "6878187:S009", "Quadruplet": [{"Aspect": "referringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",the", "VA": "5.84#5.88"}, {"Aspect": "targetentity", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "orits[UNK])", "VA": "5.36#5.56"}]}
+{"ID": "6985642:S052", "Quadruplet": []}
+{"ID": "6913340:S017", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringto", "VA": "6.56#6.13"}, {"Aspect": "targetentity", "Category": "LAPTOP#PRICE", "Opinion": "[UNK])ismentionedinthetext?This", "VA": "5.81#6.02"}]}
+{"ID": "6849897:S012", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits[UNK]", "VA": "6.53#6.06"}, {"Aspect": ",thespecific[UNK]sequencereferringtothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits[UNK]", "VA": "6.28#5.95"}]}
+{"ID": "6752254:S112", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferringtothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits[UNK]", "VA": "6.25#5.97"}]}
+{"ID": "6965152:S002", "Quadruplet": []}
+{"ID": "6779155:S006", "Quadruplet": [{"Aspect": "##ft5sf", "Category": "LAPTOP#PORTABILITY", "Opinion": "##514", "VA": "5.91#5.46"}]}
+{"ID": "6771600:S009", "Quadruplet": []}
+{"ID": "7074293:S023", "Quadruplet": [{"Aspect": "sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothe", "VA": "6.86#6.14"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "its[UNK]", "VA": "7.06#6.16"}, {"Aspect": "entityor", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "its[UNK]", "VA": "6.88#6.23"}]}
+{"ID": "6745361:S308", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "specific[UNK]", "VA": "6.85#6.14"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#PRICE", "Opinion": "thetarget", "VA": "6.32#6.14"}]}
+{"ID": "6940405:S103", "Quadruplet": [{"Aspect": "thetarget", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK]", "VA": "6.41#5.88"}]}
+{"ID": "6754382:S007", "Quadruplet": [{"Aspect": "##9+rtx40", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "##60的tu", "VA": "5.35#5.63"}]}
+{"ID": "6920254:S099", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencereferringtothetargetentityorits", "VA": "5.8#6.28"}, {"Aspect": "specific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits", "VA": "6.2#6.21"}, {"Aspect": "tothe", "Category": "LAPTOP#PRICE", "Opinion": "targetentityorits", "VA": "5.46#5.97"}]}
+{"ID": "6913340:S044", "Quadruplet": []}
+{"ID": "6838135:S047", "Quadruplet": [{"Aspect": "歡本", "Category": "LAPTOP#PRICE", "Opinion": "context.[SEP]null", "VA": "5.57#5.97"}]}
+{"ID": "6912677:S018", "Quadruplet": [{"Aspect": "[UNK]sequencereferringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",the", "VA": "6.36#5.98"}]}
+{"ID": "6831083:S048", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]", "VA": "6.41#5.89"}]}
+{"ID": "7107751:S003", "Quadruplet": [{"Aspect": "[UNK][UNK]", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "isa", "VA": "5.21#5.21"}, {"Aspect": "outputmust", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "theprecise", "VA": "5.19#5.41"}]}
+{"ID": "6833601:S055", "Quadruplet": [{"Aspect": "thetarget", "Category": "LAPTOP#PORTABILITY", "Opinion": "its[UNK])is", "VA": "5.8#5.57"}, {"Aspect": "fromthe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "context.", "VA": "6.36#5.9"}]}
+{"ID": "6921513:S026", "Quadruplet": []}
+{"ID": "6725019:S009", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferringtothetarget", "Category": "LAPTOP#PORTABILITY", "Opinion": "entityorits[UNK]", "VA": "5.45#5.73"}, {"Aspect": "inthetext?", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "isa[UNK][UNK]task.", "VA": "6.03#5.95"}]}
+{"ID": "6962681:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "[UNK]sequence", "VA": "6.31#5.9"}]}
+{"ID": "7075208:S012", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "thespecific[UNK]sequence", "VA": "6.03#5.86"}, {"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ")ismentioned", "VA": "5.85#5.47"}, {"Aspect": "text?Thisis", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "a[UNK][UNK]task.", "VA": "5.58#5.8"}]}
+{"ID": "7042893:S005", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "orits[UNK])ismentionedin", "VA": "5.63#5.55"}, {"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "acer", "VA": "5.87#5.6"}]}
+{"ID": "6793773:S009", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequencereferringto", "VA": "6.34#6.18"}, {"Aspect": "orits", "Category": "LAPTOP#PRICE", "Opinion": "[UNK])", "VA": "5.19#5.58"}]}
+{"ID": "7105703:S121", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "referringtothe", "VA": "6.28#6.15"}]}
+{"ID": "6901945:S010", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetargetentityorits", "VA": "6.09#5.89"}, {"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityorits", "VA": "6.05#5.92"}, {"Aspect": "mentionedin", "Category": "LAPTOP#PRICE", "Opinion": "thetext?Thisisa[UNK]", "VA": "5.49#5.96"}]}
+{"ID": "6738095:S733", "Quadruplet": [{"Aspect": "tothe", "Category": "LAPTOP#GENERAL", "Opinion": ",the", "VA": "5.83#5.52"}]}
+{"ID": "7076622:S001", "Quadruplet": [{"Aspect": ",thespecific", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK]sequencereferring", "VA": "6.45#6.03"}, {"Aspect": "thetarget", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits", "VA": "6.23#5.7"}, {"Aspect": ")ismentioned", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "text?This", "VA": "6.31#6.1"}]}
+{"ID": "6734994:S019", "Quadruplet": []}
+{"ID": "7094394:S027", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "[UNK]sequencereferring", "VA": "6.78#6.2"}, {"Aspect": "orits", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK])ismentioned", "VA": "6.52#5.87"}, {"Aspect": "orits", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK])", "VA": "6.65#5.85"}]}
+{"ID": "7119334:S001", "Quadruplet": []}
+{"ID": "7010600:S035", "Quadruplet": []}
+{"ID": "6788726:S026", "Quadruplet": [{"Aspect": "tothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK])", "VA": "6.31#6.15"}]}
+{"ID": "6878187:S044", "Quadruplet": [{"Aspect": "thetargetentityorits[UNK]", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": ")is", "VA": "5.51#5.62"}]}
+{"ID": "6925945:S011", "Quadruplet": [{"Aspect": "theprecise", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "wordsequencefromthecontext.", "VA": "5.9#5.71"}, {"Aspect": "是往", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "競筆電規格", "VA": "6.66#6.17"}]}
+{"ID": "7009529:S010", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "orits[UNK]", "VA": "7.18#6.52"}]}
+{"ID": "6760124:S578", "Quadruplet": [{"Aspect": ",thespecific", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "[UNK]sequence", "VA": "5.91#5.47"}, {"Aspect": "referringto", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "thetargetentityor", "VA": "5.94#5.72"}]}
+{"ID": "6699348:S695", "Quadruplet": [{"Aspect": "[UNK])", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",thespecific[UNK]sequencereferringtothetargetentityor", "VA": "6.29#6.28"}, {"Aspect": "[UNK])", "Category": "LAPTOP#GENERAL", "Opinion": "tothetargetentityor", "VA": "6.45#6.11"}]}
+{"ID": "6935598:S458", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequence", "VA": "6.44#6.13"}]}
+{"ID": "6810173:S095", "Quadruplet": [{"Aspect": "its[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "ismentionedinthe", "VA": "6.6#5.89"}]}
+{"ID": "6812376:S603", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits[UNK]", "VA": "5.96#6.05"}, {"Aspect": "[UNK]task", "Category": "LAPTOP#PRICE", "Opinion": "Theoutput", "VA": "5.23#5.55"}]}
+{"ID": "7024643:S003", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "thepreciseword", "VA": "6.85#6.2"}]}
+{"ID": "7017016:S006", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetext", "VA": "6.28#6.12"}, {"Aspect": "a[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "thetext", "VA": "5.62#5.84"}]}
+{"ID": "6952865:S263", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothe", "VA": "6.91#6.39"}]}
+{"ID": "6801138:S030", "Quadruplet": [{"Aspect": "task.", "Category": "LAPTOP#PRICE", "Opinion": "Theoutputmustbetheprecisewordsequencefromthecontext", "VA": "5.02#5.78"}]}
+{"ID": "6860419:S007", "Quadruplet": []}
+{"ID": "6750910:S016", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetarget", "VA": "5.98#5.59"}, {"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetarget", "VA": "5.85#5.55"}]}
+{"ID": "6952865:S340", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK]sequencereferringtothe", "VA": "7.02#6.43"}, {"Aspect": "orits[UNK])", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "mentionedinthetext", "VA": "6.48#6.02"}]}
+{"ID": "6865763:S011", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "cyborga", "VA": "5.96#6.01"}]}
+{"ID": "6990516:S001", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "text?Thisis", "VA": "6.49#6.05"}, {"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "referringtothetarget", "VA": "5.77#5.71"}]}
+{"ID": "6941101:S005", "Quadruplet": [{"Aspect": "sequencefrom", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "thecontext.", "VA": "5.99#5.71"}]}
+{"ID": "7053987:S002", "Quadruplet": [{"Aspect": "sequencereferringtothetargetentity", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",thespecific", "VA": "6.89#6.39"}]}
+{"ID": "6897243:S002", "Quadruplet": [{"Aspect": "[UNK]sequencereferringto", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "thespecific", "VA": "5.16#5.17"}]}
+{"ID": "6743810:S016", "Quadruplet": [{"Aspect": "a[UNK][UNK]task", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": ".Theoutputmustbethe", "VA": "6.39#6.0"}]}
+{"ID": "7069320:S054", "Quadruplet": [{"Aspect": "thetext?", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK][UNK]task.Theoutput", "VA": "5.01#5.13"}]}
+{"ID": "6711321:S010", "Quadruplet": [{"Aspect": "對岸", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "賣25k左右", "VA": "5.89#5.84"}]}
+{"ID": "6985470:S002", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothe", "VA": "6.14#5.68"}]}
+{"ID": "6998627:S005", "Quadruplet": [{"Aspect": "betheprecisewordsequence", "Category": "LAPTOP#PRICE", "Opinion": "thecontext.[SEP]null2", "VA": "5.25#5.7"}]}
+{"ID": "6999003:S002", "Quadruplet": [{"Aspect": "thetext", "Category": "LAPTOP#GENERAL", "Opinion": "?Thisisa[UNK]", "VA": "5.59#5.82"}]}
+{"ID": "6914038:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencereferringtothetarget", "VA": "6.52#6.46"}]}
+{"ID": "7063931:S002", "Quadruplet": []}
+{"ID": "7068377:S052", "Quadruplet": [{"Aspect": "sequencereferringtothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK])", "VA": "6.48#6.04"}, {"Aspect": ",thespecific[UNK]sequencereferringtothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK])", "VA": "6.27#5.96"}]}
+{"ID": "6812376:S026", "Quadruplet": [{"Aspect": "orits[UNK])", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "ismentionedin", "VA": "6.04#5.84"}, {"Aspect": "?This", "Category": "LAPTOP#PRICE", "Opinion": "a[UNK][UNK]task", "VA": "5.45#5.87"}]}
+{"ID": "7106682:S010", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "tothetargetentity", "VA": "5.83#5.83"}]}
+{"ID": "6867135:S073", "Quadruplet": []}
+{"ID": "6768439:S001", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothetarget", "VA": "6.54#6.36"}, {"Aspect": ",thespecific[UNK]sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothetarget", "VA": "6.32#6.18"}]}
+{"ID": "6908008:S082", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ")ismentioned", "VA": "6.85#6.26"}, {"Aspect": "thetargetentityorits[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ")ismentioned", "VA": "6.36#6.25"}, {"Aspect": "Theoutputmust", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "fromthe", "VA": "6.88#6.27"}, {"Aspect": "thepreciseword", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "fromthe", "VA": "6.73#6.08"}]}
+{"ID": "6952865:S109", "Quadruplet": [{"Aspect": "a[UNK]", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "text?This", "VA": "5.98#5.85"}]}
+{"ID": "6785645:S005", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "entityorits[UNK]", "VA": "5.73#5.89"}, {"Aspect": "[UNK]task", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "wordsequencefrom", "VA": "6.6#6.19"}]}
+{"ID": "6935598:S406", "Quadruplet": [{"Aspect": "?This", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "task.Theoutput", "VA": "6.45#6.08"}, {"Aspect": "a[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "task.Theoutput", "VA": "5.83#5.92"}]}
+{"ID": "6711431:S009", "Quadruplet": [{"Aspect": "ismentionedinthe", "Category": "LAPTOP#PORTABILITY", "Opinion": "text?", "VA": "5.43#5.32"}, {"Aspect": "Thisis", "Category": "LAPTOP#PRICE", "Opinion": "a[UNK][UNK]task", "VA": "5.25#5.74"}]}
+{"ID": "6968089:S004", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "thetext?", "VA": "6.78#6.3"}, {"Aspect": "sequencefromthecontext", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "[SEP]nullms", "VA": "6.18#6.06"}]}
+{"ID": "6965011:S002", "Quadruplet": []}
+{"ID": "6799488:S001", "Quadruplet": []}
+{"ID": "6878020:S003", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityor", "VA": "6.13#5.75"}, {"Aspect": "ismentioned", "Category": "LAPTOP#PRICE", "Opinion": "inthetext?", "VA": "5.78#6.29"}]}
+{"ID": "6710233:S004", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequence", "VA": "6.73#5.73"}, {"Aspect": "tothetargetentityor", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "[UNK])is", "VA": "5.73#5.88"}]}
+{"ID": "6948814:S003", "Quadruplet": [{"Aspect": ")ismentionedin", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "thetext?This", "VA": "5.21#5.47"}]}
+{"ID": "7027819:S053", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]", "VA": "7.1#6.42"}, {"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothe", "VA": "7.03#6.33"}]}
+{"ID": "6951520:S004", "Quadruplet": [{"Aspect": "會出", "Category": "LAPTOP#PRICE", "Opinion": "在最", "VA": "5.59#5.93"}]}
+{"ID": "6837781:S007", "Quadruplet": []}
+{"ID": "7105703:S020", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#GENERAL", "Opinion": "tothe", "VA": "6.16#5.74"}, {"Aspect": "[UNK]sequence", "Category": "LAPTOP#GENERAL", "Opinion": "tothe", "VA": "6.19#5.82"}]}
+{"ID": "6956096:S004", "Quadruplet": [{"Aspect": "inthe", "Category": "LAPTOP#GENERAL", "Opinion": "text?", "VA": "6.19#5.77"}, {"Aspect": "isa[UNK][UNK]task", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ".Theoutput", "VA": "5.84#5.67"}]}
+{"ID": "6749219:S433", "Quadruplet": [{"Aspect": "mentionedinthe", "Category": "LAPTOP#GENERAL", "Opinion": "text?This", "VA": "6.23#6.24"}]}
+{"ID": "7061807:S002", "Quadruplet": [{"Aspect": ".[SEP]", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "null既然你有選手", "VA": "6.32#5.95"}, {"Aspect": "##susviv", "Category": "LAPTOP#PRICE", "Opinion": "##obook14x140", "VA": "5.46#5.83"}]}
+{"ID": "7072999:S012", "Quadruplet": [{"Aspect": "thetargetentity", "Category": "LAPTOP#PRICE", "Opinion": ")is", "VA": "5.82#6.06"}, {"Aspect": "##v價", "Category": "LAPTOP#PRICE", "Opinion": "##p值應", "VA": "6.01#5.96"}]}
+{"ID": "6952865:S042", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]", "VA": "6.34#5.52"}, {"Aspect": "orits", "Category": "LAPTOP#PRICE", "Opinion": "ismentionedinthe", "VA": "5.32#5.94"}]}
+{"ID": "6739608:S001", "Quadruplet": []}
+{"ID": "7095346:S057", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.61#5.78"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.58#5.83"}, {"Aspect": ")is", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthe", "VA": "6.39#6.25"}]}
+{"ID": "6864966:S022", "Quadruplet": [{"Aspect": "inthetext?Thisisa", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK][UNK]task", "VA": "5.75#5.71"}]}
+{"ID": "6787764:S001", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#GENERAL", "Opinion": "referringto", "VA": "6.28#6.02"}, {"Aspect": "[SEP]null送這", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "筆電", "VA": "6.17#5.98"}]}
+{"ID": "6960644:S047", "Quadruplet": [{"Aspect": "entityor", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "its[UNK])ismentioned", "VA": "6.39#6.15"}, {"Aspect": "?Thisisa", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK][UNK]", "VA": "5.91#5.96"}]}
+{"ID": "6912677:S002", "Quadruplet": []}
+{"ID": "7052705:S012", "Quadruplet": [{"Aspect": "task.", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "betheprecise", "VA": "5.75#5.63"}, {"Aspect": "task.", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "outputmustbetheprecise", "VA": "5.59#5.58"}]}
+{"ID": "7105703:S464", "Quadruplet": [{"Aspect": "ismentionedinthe", "Category": "KEYBOARD#DESIGN_FEATURES", "Opinion": "text?Thisis", "VA": "5.4#5.99"}]}
+{"ID": "7096305:S080", "Quadruplet": [{"Aspect": "sequencefrom", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thecontext.[SEP]", "VA": "5.99#6.07"}]}
+{"ID": "6918097:S221", "Quadruplet": [{"Aspect": "thespecific", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetargetentity", "VA": "7.02#6.45"}, {"Aspect": "referringto", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "thetargetentity", "VA": "7.05#6.49"}]}
+{"ID": "6907113:S008", "Quadruplet": [{"Aspect": "inthe", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "Thisis", "VA": "5.98#5.64"}]}
+{"ID": "7037163:S008", "Quadruplet": []}
+{"ID": "7074781:S016", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityorits", "VA": "5.65#6.07"}, {"Aspect": "mentionedin", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "text?Thisisa[UNK]", "VA": "6.02#5.68"}]}
+{"ID": "6955371:S005", "Quadruplet": [{"Aspect": "precisewordsequencefromthe", "Category": "LAPTOP#GENERAL", "Opinion": ".[SEP]null我也是渲", "VA": "5.31#5.69"}]}
+{"ID": "6699348:S620", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",the", "VA": "6.4#5.72"}, {"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityorits", "VA": "6.32#6.02"}]}
+{"ID": "6801894:S004", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothetarget", "VA": "6.15#5.76"}, {"Aspect": "[UNK])is", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "mentionedinthe", "VA": "5.44#5.65"}, {"Aspect": "[UNK])is", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "a[UNK][UNK]", "VA": "5.65#5.83"}]}
+{"ID": "7100595:S077", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityor", "VA": "6.77#6.43"}, {"Aspect": "Thisis", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "thetext", "VA": "7.4#6.58"}, {"Aspect": "Thisis", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "a[UNK][UNK]task", "VA": "7.44#6.57"}, {"Aspect": ",thespecific[UNK]sequencereferringtothetargetentityorits[UNK])ismentioned", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityor", "VA": "6.12#6.16"}]}
+{"ID": "7011701:S005", "Quadruplet": [{"Aspect": "targetentityorits[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": ")ismentionedinthetext?This", "VA": "5.77#5.92"}]}
+{"ID": "6935598:S172", "Quadruplet": []}
+{"ID": "7023288:S028", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": "sequence", "VA": "6.34#5.72"}, {"Aspect": "targetentity", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "or", "VA": "5.69#5.46"}, {"Aspect": "[UNK])ismentioned", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "in", "VA": "4.99#5.15"}]}
+{"ID": "6942681:S001", "Quadruplet": [{"Aspect": "entityor", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "ismentionedinthe", "VA": "5.46#5.4"}]}
+{"ID": "6782540:S709", "Quadruplet": []}
+{"ID": "6772612:S003", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "##ookpro16oledk", "VA": "6.12#6.08"}, {"Aspect": "fromthecontext.[SEP]", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "##ookpro16oledk", "VA": "5.8#5.96"}]}
+{"ID": "6985470:S005", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": ".Theoutputmustbetheprecise", "VA": "6.21#6.13"}]}
+{"ID": "6716431:S001", "Quadruplet": [{"Aspect": "referringtothetargetentity", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "orits[UNK]", "VA": "4.83#5.35"}]}
+{"ID": "6850921:S021", "Quadruplet": [{"Aspect": "[UNK]", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": ")is", "VA": "6.36#6.08"}]}
+{"ID": "6959938:S005", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "specific[UNK]sequencereferringto", "VA": "4.62#5.34"}]}
+{"ID": "7077626:S002", "Quadruplet": [{"Aspect": "Thisis", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "a[UNK][UNK]task.The", "VA": "5.24#5.31"}]}
+{"ID": "6915518:S006", "Quadruplet": [{"Aspect": "?This", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "isa", "VA": "5.9#5.68"}, {"Aspect": "?This", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "Theoutputmust", "VA": "5.92#5.85"}]}
+{"ID": "6956965:S033", "Quadruplet": [{"Aspect": "[UNK])ismentioned", "Category": "LAPTOP#PORTABILITY", "Opinion": "?Thisisa", "VA": "5.57#5.99"}, {"Aspect": "outputmust", "Category": "LAPTOP#PRICE", "Opinion": "precisewordsequence", "VA": "5.56#6.02"}]}
+{"ID": "6698962:S003", "Quadruplet": [{"Aspect": "代理有保", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "的紅", "VA": "5.81#5.52"}]}
+{"ID": "7012416:S048", "Quadruplet": []}
+{"ID": "6765997:S009", "Quadruplet": []}
+{"ID": "6788726:S511", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]", "VA": "6.75#6.14"}, {"Aspect": "referringto", "Category": "LAPTOP#PRICE", "Opinion": "thetargetentityorits", "VA": "6.1#6.14"}]}
+{"ID": "6825044:S022", "Quadruplet": [{"Aspect": "##0h/r", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "##tx40608", "VA": "6.35#6.39"}]}
+{"ID": "6949617:S211", "Quadruplet": [{"Aspect": "referringtothetarget", "Category": "LAPTOP#GENERAL", "Opinion": "entityorits[UNK])is", "VA": "5.93#6.13"}, {"Aspect": "specific[UNK]sequencereferringtothetarget", "Category": "LAPTOP#GENERAL", "Opinion": "entityorits[UNK])is", "VA": "5.89#6.21"}]}
+{"ID": "6905790:S001", "Quadruplet": [{"Aspect": "referringtothetarget", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityor", "VA": "6.0#5.93"}, {"Aspect": "筆電規", "Category": "LAPTOP#PRICE", "Opinion": "格很夠", "VA": "6.02#6.26"}, {"Aspect": "差不", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "是這", "VA": "6.1#5.91"}]}
+{"ID": "6906568:S004", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetargetentityorits", "VA": "5.77#5.98"}]}
+{"ID": "6741256:S004", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequencereferring", "VA": "5.53#5.25"}, {"Aspect": "thetarget", "Category": "LAPTOP#PORTABILITY", "Opinion": "entityorits", "VA": "5.89#5.73"}]}
+{"ID": "6701483:S002", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "orits[UNK])", "VA": "5.47#5.35"}, {"Aspect": "tothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "orits[UNK])", "VA": "5.34#5.31"}, {"Aspect": "thetext", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "mustbethe", "VA": "5.73#5.63"}, {"Aspect": "Thisisa[UNK][UNK]task.", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "mustbethe", "VA": "5.53#5.6"}]}
+{"ID": "6894354:S007", "Quadruplet": [{"Aspect": "thetargetentityor", "Category": "LAPTOP#GENERAL", "Opinion": "its[UNK])", "VA": "5.77#5.92"}]}
+{"ID": "6745971:S125", "Quadruplet": [{"Aspect": "mentionedin", "Category": "LAPTOP#PORTABILITY", "Opinion": "text?", "VA": "6.36#5.88"}]}
+{"ID": "6763119:S333", "Quadruplet": [{"Aspect": "specific[UNK]sequencereferring", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "targetentityorits", "VA": "6.6#6.47"}, {"Aspect": "specific[UNK]sequencereferring", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "tothetargetentityorits", "VA": "6.48#6.36"}]}
+{"ID": "7077603:S002", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#PRICE", "Opinion": "specific[UNK]", "VA": "5.77#5.58"}]}
+{"ID": "6773142:S004", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "referringtothetargetentityorits", "VA": "5.96#5.81"}, {"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityorits", "VA": "6.54#6.08"}]}
+{"ID": "7041316:S004", "Quadruplet": [{"Aspect": "preciseword", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "sequencefrom", "VA": "5.45#5.52"}]}
+{"ID": "6954874:S008", "Quadruplet": [{"Aspect": "targetentity", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "orits", "VA": "5.44#5.34"}]}
+{"ID": "6949617:S415", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#PORTABILITY", "Opinion": "tothetargetentityor", "VA": "5.73#5.49"}, {"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothetargetentityor", "VA": "6.24#5.62"}]}
+{"ID": "6946311:S232", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentityor", "VA": "6.64#6.12"}, {"Aspect": "ismentionedinthetext", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "?Thisis", "VA": "5.76#5.78"}]}
+{"ID": "6725019:S122", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "entityor", "VA": "6.19#5.85"}, {"Aspect": "tothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityor", "VA": "6.3#5.86"}]}
+{"ID": "6744292:S250", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "referringtothetargetentity", "VA": "6.72#6.55"}]}
+{"ID": "6764325:S321", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "its[UNK]", "VA": "5.54#5.68"}]}
+{"ID": "6709147:S006", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "##f是11代", "VA": "5.7#5.73"}, {"Aspect": "isa", "Category": "LAPTOP#PRICE", "Opinion": "[UNK][UNK]", "VA": "5.26#5.46"}, {"Aspect": "##533zm", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "##f是11代", "VA": "5.75#5.74"}]}
+{"ID": "6745361:S677", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "referringto", "VA": "6.7#6.2"}]}
+{"ID": "6761323:S021", "Quadruplet": []}
+{"ID": "7008316:S004", "Quadruplet": []}
+{"ID": "6976248:S003", "Quadruplet": []}
+{"ID": "6970249:S014", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits[UNK]", "VA": "6.45#5.89"}, {"Aspect": "tothe", "Category": "LAPTOP#PORTABILITY", "Opinion": "targetentityorits[UNK]", "VA": "6.22#5.89"}]}
+{"ID": "7029537:S008", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "sequencefrom", "VA": "5.93#5.67"}, {"Aspect": "thespecific", "Category": "LAPTOP#GENERAL", "Opinion": "sequencereferringtothetargetentityorits[UNK])ismentioned", "VA": "5.4#5.62"}]}
+{"ID": "6965011:S003", "Quadruplet": [{"Aspect": "?Thisisa", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK][UNK]task.", "VA": "6.0#5.99"}]}
+{"ID": "6973895:S034", "Quadruplet": [{"Aspect": "tothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentityorits", "VA": "6.29#5.99"}]}
+{"ID": "6738095:S226", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#GENERAL", "Opinion": "specific[UNK]sequencereferringto", "VA": "6.36#6.17"}]}
+{"ID": "6758529:S001", "Quadruplet": [{"Aspect": "了未", "Category": "LAPTOP#PORTABILITY", "Opinion": "可以考", "VA": "5.87#5.49"}]}
+{"ID": "6818071:S328", "Quadruplet": []}
+{"ID": "6952865:S068", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferringto", "Category": "LAPTOP#GENERAL", "Opinion": "thetargetentityorits[UNK]", "VA": "6.11#6.26"}, {"Aspect": ",thespecific[UNK]sequencereferringto", "Category": "LAPTOP#GENERAL", "Opinion": "thetext?This", "VA": "6.08#6.14"}]}
+{"ID": "6831457:S034", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequence", "VA": "6.76#6.13"}]}
+{"ID": "6893792:S098", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequence", "VA": "6.34#6.05"}]}
+{"ID": "6730925:S002", "Quadruplet": [{"Aspect": "its[UNK])", "Category": "CPU#GENERAL", "Opinion": "ismentionedinthetext?", "VA": "5.62#5.7"}]}
+{"ID": "6957389:S003", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits", "VA": "6.62#6.29"}, {"Aspect": "##7-", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "13700h", "VA": "6.56#6.1"}, {"Aspect": "滿血", "Category": "LAPTOP#PORTABILITY", "Opinion": "版r", "VA": "6.31#5.58"}]}
+{"ID": "6770036:S435", "Quadruplet": [{"Aspect": "its[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentity", "VA": "6.39#5.89"}, {"Aspect": "thetext?This", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "ismentioned", "VA": "6.25#5.9"}, {"Aspect": "[UNK]task.", "Category": "LAPTOP#PRICE", "Opinion": "Theoutput", "VA": "6.44#6.56"}]}
+{"ID": "6837781:S003", "Quadruplet": [{"Aspect": "referringto", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "the", "VA": "5.94#5.67"}]}
+{"ID": "6935598:S073", "Quadruplet": [{"Aspect": ")ismentionedin", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "thetext?", "VA": "6.08#6.04"}]}
+{"ID": "6944839:S140", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequencereferringtothe", "VA": "6.28#6.12"}]}
+{"ID": "6810173:S057", "Quadruplet": [{"Aspect": "targetentity", "Category": "LAPTOP#GENERAL", "Opinion": "orits[UNK])", "VA": "6.09#5.76"}, {"Aspect": "mentionedin", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "text?Thisis", "VA": "6.17#5.91"}]}
+{"ID": "6756274:S040", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "specific[UNK]sequencereferringtothetarget", "VA": "4.74#5.07"}]}
+{"ID": "6833486:S016", "Quadruplet": [{"Aspect": "接近你", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "設定", "VA": "5.65#5.47"}, {"Aspect": "挑l", "Category": "LAPTOP#PRICE", "Opinion": "##g這台", "VA": "5.39#5.4"}, {"Aspect": "的機種使用", "Category": "LAPTOP#PORTABILITY", "Opinion": "有兩台", "VA": "5.79#5.84"}]}
+{"ID": "7038735:S008", "Quadruplet": []}
+{"ID": "6793649:S005", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "specific[UNK]", "VA": "6.15#5.68"}]}
+{"ID": "6829147:S004", "Quadruplet": [{"Aspect": "orits[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": "inthetext?", "VA": "5.64#5.62"}, {"Aspect": "orits[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": ")ismentionedinthetext?", "VA": "5.65#5.75"}]}
+{"ID": "6759304:S024", "Quadruplet": []}
+{"ID": "6781640:S009", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "tothetarget", "VA": "5.66#5.8"}, {"Aspect": "its[UNK])", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "text?", "VA": "5.98#5.93"}, {"Aspect": "mentionedin", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "text?", "VA": "6.41#6.27"}]}
+{"ID": "6932879:S022", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#PRICE", "Opinion": "specific[UNK]", "VA": "5.85#6.03"}, {"Aspect": "referringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.27#5.79"}]}
+{"ID": "6831457:S009", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencereferring", "VA": "6.13#5.63"}]}
+{"ID": "6932879:S044", "Quadruplet": [{"Aspect": "orits", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetargetentity", "VA": "6.27#5.76"}, {"Aspect": "orits", "Category": "LAPTOP#PORTABILITY", "Opinion": ")", "VA": "6.2#5.58"}]}
+{"ID": "6895216:S008", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK]", "VA": "5.58#5.32"}, {"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK]", "VA": "5.65#5.29"}]}
+{"ID": "6769489:S117", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]", "VA": "6.57#5.92"}]}
+{"ID": "6935931:S001", "Quadruplet": [{"Aspect": ".[SEP]null", "Category": "LAPTOP#PRICE", "Opinion": "商務", "VA": "6.08#6.03"}]}
+{"ID": "6916554:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "原生", "VA": "5.25#5.36"}]}
+{"ID": "6696296:S196", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencereferringtothetargetentity", "VA": "6.0#5.83"}]}
+{"ID": "6918097:S113", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",the", "VA": "7.39#6.71"}, {"Aspect": "mentionedinthetext", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "?Thisisa[UNK]", "VA": "5.96#6.06"}]}
+{"ID": "6790340:S005", "Quadruplet": []}
+{"ID": "6933978:S007", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "referringtothetargetentity", "VA": "6.76#6.24"}]}
+{"ID": "6818071:S246", "Quadruplet": [{"Aspect": "thespecific", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK]sequencereferringtothetargetentityor", "VA": "6.1#5.86"}, {"Aspect": "[UNK]task", "Category": "LAPTOP#PRICE", "Opinion": "isa", "VA": "5.64#5.86"}]}
+{"ID": "6803733:S005", "Quadruplet": []}
+{"ID": "6799971:S009", "Quadruplet": [{"Aspect": "precisewordsequencefrom", "Category": "LAPTOP#GENERAL", "Opinion": "context.[SEP]", "VA": "5.67#5.61"}]}
+{"ID": "6722990:S027", "Quadruplet": [{"Aspect": "its[UNK]", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "ismentioned", "VA": "6.18#5.9"}, {"Aspect": "text?Thisisa", "Category": "LAPTOP#GENERAL", "Opinion": "[UNK][UNK]task.", "VA": "5.67#6.04"}]}
+{"ID": "6993292:S001", "Quadruplet": []}
+{"ID": "6766896:S004", "Quadruplet": []}
+{"ID": "6845774:S108", "Quadruplet": [{"Aspect": "referringtothetarget", "Category": "LAPTOP#PRICE", "Opinion": "entity", "VA": "5.76#5.7"}]}
+{"ID": "6981563:S008", "Quadruplet": [{"Aspect": "?This", "Category": "LAPTOP#PORTABILITY", "Opinion": "畢竟16吋以上", "VA": "4.9#5.36"}]}
+{"ID": "6940405:S034", "Quadruplet": [{"Aspect": "thespecific", "Category": "LAPTOP#GENERAL", "Opinion": "tothe", "VA": "5.99#5.75"}, {"Aspect": "its[UNK]", "Category": "LAPTOP#PRICE", "Opinion": ")ismentionedinthetext?Thisisa[UNK]", "VA": "5.3#5.82"}]}
+{"ID": "6817444:S037", "Quadruplet": [{"Aspect": "sequencereferring", "Category": "LAPTOP#GENERAL", "Opinion": ",thespecific", "VA": "6.37#6.1"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#GENERAL", "Opinion": "targetentityor", "VA": "6.18#6.12"}]}
+{"ID": "6931799:S037", "Quadruplet": [{"Aspect": "sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",thespecific", "VA": "6.73#6.52"}, {"Aspect": "ismentionedinthe", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "text?", "VA": "6.33#6.33"}]}
+{"ID": "6956965:S401", "Quadruplet": [{"Aspect": ",thespecific", "Category": "LAPTOP#PRICE", "Opinion": "[UNK]sequencereferringto", "VA": "6.18#5.92"}, {"Aspect": "its[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "ismentioned", "VA": "6.65#5.81"}]}
+{"ID": "6918097:S076", "Quadruplet": [{"Aspect": "[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",the", "VA": "6.72#6.1"}]}
+{"ID": "6735165:S002", "Quadruplet": [{"Aspect": "17.", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "3吋fhd", "VA": "5.44#5.41"}]}
+{"ID": "6763424:S009", "Quadruplet": [{"Aspect": "tothe", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "its[UNK])is", "VA": "5.3#5.33"}, {"Aspect": "tothe", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "targetentityorits[UNK])is", "VA": "5.15#5.32"}]}
+{"ID": "7099724:S031", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits[UNK]", "VA": "5.47#5.75"}]}
+{"ID": "6798966:S010", "Quadruplet": [{"Aspect": "[UNK]", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "referringtothe", "VA": "5.71#5.81"}, {"Aspect": ",thespecific[UNK]sequence", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "referringtothe", "VA": "5.06#5.45"}, {"Aspect": "thetext", "Category": "LAPTOP#PRICE", "Opinion": "?Thisis", "VA": "6.22#6.08"}]}
+{"ID": "6892641:S012", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "tothetargetentity", "VA": "5.74#5.54"}]}
+{"ID": "6745361:S346", "Quadruplet": [{"Aspect": "specific[UNK]sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothe", "VA": "5.68#5.74"}, {"Aspect": "targetentity", "Category": "LAPTOP#PRICE", "Opinion": "its[UNK])", "VA": "5.34#5.88"}]}
+{"ID": "7078163:S016", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": "實重量真", "VA": "6.49#5.94"}, {"Aspect": "specific[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": "sequencereferringtothetargetentity", "VA": "5.58#5.41"}]}
+{"ID": "7091887:S050", "Quadruplet": [{"Aspect": "訊室", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "把他的", "VA": "5.36#5.41"}]}
+{"ID": "7093910:S005", "Quadruplet": [{"Aspect": "[UNK][UNK]", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "task.Theoutput", "VA": "5.26#5.13"}]}
+{"ID": "7092051:S021", "Quadruplet": []}
+{"ID": "7109777:S010", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#PORTABILITY", "Opinion": "specific[UNK]", "VA": "6.57#5.91"}]}
+{"ID": "6783989:S001", "Quadruplet": [{"Aspect": "its[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "的c", "VA": "6.3#6.5"}]}
+{"ID": "6983090:S056", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferring", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "tothetarget", "VA": "6.01#6.03"}]}
+{"ID": "6858804:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "orits[UNK])ismentionedinthetext?Thisisa[UNK][UNK]", "VA": "5.86#6.0"}]}
+{"ID": "6738095:S568", "Quadruplet": [{"Aspect": "tothe", "Category": "LAPTOP#PRICE", "Opinion": "targetentity", "VA": "5.67#6.05"}]}
+{"ID": "6727320:S004", "Quadruplet": []}
+{"ID": "6985642:S035", "Quadruplet": [{"Aspect": "specific[UNK]sequence", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "referringtothetarget", "VA": "5.5#5.53"}, {"Aspect": "specific[UNK]sequence", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "sequencefrom", "VA": "5.33#5.31"}]}
+{"ID": "6944839:S122", "Quadruplet": [{"Aspect": "thetarget", "Category": "LAPTOP#PORTABILITY", "Opinion": "entityorits[UNK])is", "VA": "6.01#5.82"}]}
+{"ID": "7105703:S100", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": ")ismentioned", "VA": "6.93#6.38"}, {"Aspect": "entityorits[UNK]", "Category": "LAPTOP#PORTABILITY", "Opinion": ")ismentioned", "VA": "6.66#6.26"}, {"Aspect": "thetext", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "Thisisa", "VA": "6.43#5.91"}]}
+{"ID": "6707403:S378", "Quadruplet": [{"Aspect": "orits", "Category": "LAPTOP#PRICE", "Opinion": "ismentioned", "VA": "5.32#5.83"}]}
+{"ID": "6877733:S011", "Quadruplet": [{"Aspect": ",thespecific", "Category": "LAPTOP#PRICE", "Opinion": "tothetargetentity", "VA": "5.4#5.75"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#PRICE", "Opinion": "tothetargetentity", "VA": "5.23#5.69"}, {"Aspect": "弄喔", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "以前（十年", "VA": "5.46#5.57"}]}
+{"ID": "6791667:S005", "Quadruplet": [{"Aspect": "預算差不", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "多13萬因是", "VA": "5.35#5.81"}]}
+{"ID": "6876865:S009", "Quadruplet": [{"Aspect": "betheprecise", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencefromthecontext.", "VA": "5.15#5.47"}]}
+{"ID": "6957949:S011", "Quadruplet": []}
+{"ID": "6984035:S003", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "實實在", "VA": "6.02#6.03"}, {"Aspect": "求amdr9-7945hx", "Category": "LAPTOP#GENERAL", "Opinion": "實實在", "VA": "5.79#6.04"}, {"Aspect": "求amdr9-7945hx", "Category": "LAPTOP#GENERAL", "Opinion": "16顆不", "VA": "5.52#5.93"}]}
+{"ID": "7072751:S011", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "thecontext.", "VA": "6.06#5.8"}, {"Aspect": "null你又不是t", "Category": "LAPTOP#GENERAL", "Opinion": "##smc的engineer", "VA": "5.16#5.55"}]}
+{"ID": "6966145:S027", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "tothetargetentityor", "VA": "6.95#6.53"}]}
+{"ID": "7100595:S055", "Quadruplet": [{"Aspect": "tothe", "Category": "LAPTOP#PRICE", "Opinion": "[UNK]sequence", "VA": "5.18#5.66"}, {"Aspect": "inthetext", "Category": "LAPTOP#PORTABILITY", "Opinion": "?Thisisa[UNK][UNK]", "VA": "5.59#5.7"}]}
+{"ID": "6777250:S182", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]", "VA": "6.45#5.73"}, {"Aspect": "referringto", "Category": "LAPTOP#PRICE", "Opinion": "thetargetentityor", "VA": "5.68#5.85"}]}
+{"ID": "6797250:S009", "Quadruplet": []}
+{"ID": "6929230:S174", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "tothetargetentity", "VA": "6.69#5.95"}]}
+{"ID": "6994867:S011", "Quadruplet": [{"Aspect": "outputmustbetheprecise", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "wordsequence", "VA": "5.99#5.87"}, {"Aspect": "thecontext.[SEP]", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "null工作", "VA": "5.94#5.57"}, {"Aspect": "用,", "Category": "LAPTOP#PORTABILITY", "Opinion": "建議要miniledoro", "VA": "5.97#5.23"}]}
+{"ID": "6935598:S120", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific", "VA": "6.59#6.16"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#PRICE", "Opinion": "the", "VA": "5.81#6.01"}]}
+{"ID": "6826849:S006", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "fromthecontext.", "VA": "6.13#6.3"}, {"Aspect": "mustbe", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "fromthecontext.", "VA": "5.87#6.08"}, {"Aspect": "來說p52", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "了而且我", "VA": "5.04#5.5"}]}
+{"ID": "7041612:S006", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "sequencereferring", "VA": "5.31#5.36"}, {"Aspect": "its[UNK]", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": ")is", "VA": "5.02#5.33"}]}
+{"ID": "6946915:S111", "Quadruplet": [{"Aspect": "its[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "ismentioned", "VA": "5.62#5.81"}, {"Aspect": "inthe", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "?This", "VA": "5.39#5.28"}]}
+{"ID": "6952865:S031", "Quadruplet": [{"Aspect": "thetarget", "Category": "LAPTOP#GENERAL", "Opinion": "entityorits[UNK])ismentionedinthetext", "VA": "6.21#6.22"}]}
+{"ID": "6872758:S012", "Quadruplet": [{"Aspect": "orits", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthetext", "VA": "6.86#6.35"}, {"Aspect": "orits[UNK])", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthetext", "VA": "6.77#6.46"}]}
+{"ID": "7093960:S061", "Quadruplet": [{"Aspect": "targetentity", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "orits", "VA": "6.72#5.82"}, {"Aspect": ")is", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthe", "VA": "6.86#6.23"}]}
+{"ID": "6976248:S004", "Quadruplet": [{"Aspect": "outputmust", "Category": "LAPTOP#GENERAL", "Opinion": "task.", "VA": "6.38#6.02"}, {"Aspect": "話可", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "往上", "VA": "6.66#5.71"}, {"Aspect": "zenbook", "Category": "LAPTOP#PRICE", "Opinion": "之前也有注", "VA": "5.28#5.86"}]}
+{"ID": "6695137:S068", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferringtothetargetentity", "Category": "LAPTOP#GENERAL", "Opinion": "or", "VA": "5.65#5.45"}]}
+{"ID": "6812980:S012", "Quadruplet": [{"Aspect": ",the", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "specific", "VA": "6.2#5.68"}, {"Aspect": "sequencereferring", "Category": "LAPTOP#PORTABILITY", "Opinion": "thetarget", "VA": "6.09#5.33"}]}
+{"ID": "7072573:S005", "Quadruplet": []}
+{"ID": "6793121:S003", "Quadruplet": [{"Aspect": "fhd/", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "w11", "VA": "6.0#5.7"}, {"Aspect": "記憶", "Category": "LAPTOP#PORTABILITY", "Opinion": "直接", "VA": "6.31#5.76"}]}
+{"ID": "7011739:S007", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.89#6.29"}, {"Aspect": "entityor", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "its[UNK]", "VA": "7.38#6.58"}, {"Aspect": "entityor", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ")ismentioned", "VA": "7.42#6.56"}]}
+{"ID": "6714797:S013", "Quadruplet": []}
+{"ID": "6972394:S011", "Quadruplet": []}
+{"ID": "6908008:S065", "Quadruplet": [{"Aspect": "its[UNK])", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "mentionedin", "VA": "6.11#5.88"}]}
+{"ID": "6917337:S020", "Quadruplet": [{"Aspect": "referringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": ",thespecific[UNK]", "VA": "6.85#5.93"}, {"Aspect": "referringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.84#5.89"}, {"Aspect": ",thespecific[UNK]sequencereferringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.61#5.93"}]}
+{"ID": "6730399:S006", "Quadruplet": [{"Aspect": "30k", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "預算，", "VA": "5.51#5.51"}]}
+{"ID": "6909643:S009", "Quadruplet": []}
+{"ID": "6952865:S214", "Quadruplet": [{"Aspect": "specific[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "sequencereferringtothe", "VA": "6.98#6.47"}, {"Aspect": "targetentity", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "orits[UNK])", "VA": "6.45#6.35"}, {"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencereferringtothe", "VA": "6.66#6.4"}]}
+{"ID": "6893792:S005", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetarget", "VA": "6.94#6.43"}]}
+{"ID": "6883884:S004", "Quadruplet": [{"Aspect": "inthe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "?", "VA": "6.16#5.91"}]}
+{"ID": "7068641:S001", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "thetargetentityorits", "VA": "6.39#6.37"}, {"Aspect": ",thespecific[UNK]sequencereferringto", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "entityorits", "VA": "6.5#6.34"}]}
+{"ID": "6715499:S008", "Quadruplet": [{"Aspect": "sequencereferring", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "thetargetentityor", "VA": "5.36#5.36"}]}
+{"ID": "6823349:S020", "Quadruplet": [{"Aspect": "thetarget", "Category": "LAPTOP#GENERAL", "Opinion": "entity", "VA": "5.81#5.93"}]}
+{"ID": "7016434:S072", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#PRICE", "Opinion": "specific[UNK]sequencereferringto", "VA": "5.14#5.77"}]}
+{"ID": "6924003:S019", "Quadruplet": [{"Aspect": "mustbe", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "thepreciseword", "VA": "7.08#6.59"}]}
+{"ID": "6936548:S006", "Quadruplet": []}
+{"ID": "6720888:S014", "Quadruplet": []}
+{"ID": "7021545:S098", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthetext?Thisisa", "VA": "6.74#6.26"}, {"Aspect": "[UNK])ismentioned", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthetext?Thisisa", "VA": "6.75#6.3"}]}
+{"ID": "6817848:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": ".[SEP]null", "VA": "6.57#6.37"}, {"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "這台依你", "VA": "6.81#6.28"}, {"Aspect": "##eraspire5a51", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "這台依你", "VA": "5.59#5.72"}]}
+{"ID": "6761611:S004", "Quadruplet": []}
+{"ID": "7105703:S181", "Quadruplet": [{"Aspect": "specific[UNK]sequencereferring", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "tothe", "VA": "6.48#6.2"}]}
+{"ID": "6799106:S015", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "mentionedinthetext?This", "VA": "5.83#6.11"}, {"Aspect": "a[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "task.Theoutput", "VA": "5.02#5.54"}]}
+{"ID": "6971263:S036", "Quadruplet": [{"Aspect": "tothe", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "targetentity", "VA": "6.23#5.59"}]}
+{"ID": "7102814:S022", "Quadruplet": [{"Aspect": "[UNK])", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "mentionedinthe", "VA": "5.91#5.22"}, {"Aspect": "?This", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "[UNK]task.Theoutput", "VA": "6.05#5.48"}]}
+{"ID": "6806444:S019", "Quadruplet": [{"Aspect": "mentionedinthetext?This", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "a[UNK]", "VA": "5.27#5.9"}, {"Aspect": "[UNK]task", "Category": "LAPTOP#PRICE", "Opinion": "Theoutputmust", "VA": "5.45#5.75"}]}
+{"ID": "7018230:S017", "Quadruplet": [{"Aspect": "了教", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "授", "VA": "5.89#5.63"}, {"Aspect": "了教", "Category": "BATTERY#OPERATION_PERFORMANCE", "Opinion": "以進", "VA": "5.67#5.54"}]}
+{"ID": "7037315:S004", "Quadruplet": [{"Aspect": "entityorits[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "isa[UNK][UNK]", "VA": "5.22#5.48"}, {"Aspect": "Theoutputmustbetheprecise", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "wordsequencefromthecontext.", "VA": "5.08#5.44"}]}
+{"ID": "7024955:S066", "Quadruplet": [{"Aspect": ",thespecific", "Category": "LAPTOP#GENERAL", "Opinion": "[UNK]sequence", "VA": "6.39#5.88"}, {"Aspect": "tothetargetentity", "Category": "LAPTOP#GENERAL", "Opinion": "[UNK]sequence", "VA": "6.08#5.99"}]}
+{"ID": "7096379:S013", "Quadruplet": []}
+{"ID": "6944905:S006", "Quadruplet": []}
+{"ID": "6783103:S045", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#GENERAL", "Opinion": "its[UNK])is", "VA": "6.46#5.89"}]}
+{"ID": "6734862:S051", "Quadruplet": []}
+{"ID": "7105523:S002", "Quadruplet": [{"Aspect": "[UNK]", "Category": "LAPTOP#PRICE", "Opinion": "text?", "VA": "5.52#5.64"}, {"Aspect": "inthe", "Category": "LAPTOP#PRICE", "Opinion": "text?", "VA": "5.04#5.38"}]}
+{"ID": "6886245:S004", "Quadruplet": []}
+{"ID": "6915462:S013", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "specific[UNK]sequencereferringtothe", "VA": "6.86#6.12"}]}
+{"ID": "7105703:S019", "Quadruplet": [{"Aspect": ")is", "Category": "LAPTOP#PRICE", "Opinion": "inthetext?", "VA": "5.15#5.63"}]}
+{"ID": "6880567:S023", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequence", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "targetentityor", "VA": "5.81#5.69"}]}
+{"ID": "6697182:S005", "Quadruplet": [{"Aspect": ",thespecific[UNK]", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "sequencereferringtothetargetentity", "VA": "5.36#5.65"}, {"Aspect": "ismentioned", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "inthetext?", "VA": "6.16#5.78"}]}
+{"ID": "6814656:S009", "Quadruplet": [{"Aspect": "specific[UNK]sequencereferringto", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "isa", "VA": "5.83#5.86"}]}
+{"ID": "6936548:S011", "Quadruplet": [{"Aspect": "specific[UNK]sequencereferring", "Category": "LAPTOP#GENERAL", "Opinion": "[UNK])ismentionedin", "VA": "5.8#5.91"}]}
+{"ID": "7040924:S001", "Quadruplet": [{"Aspect": "[UNK]task.", "Category": "LAPTOP#PORTABILITY", "Opinion": "precisewordsequence", "VA": "5.97#6.16"}]}
+{"ID": "6771305:S012", "Quadruplet": [{"Aspect": "該說主要", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "要看你的用", "VA": "6.51#6.05"}, {"Aspect": "途是甚麼[UNK]如", "Category": "LAPTOP#GENERAL", "Opinion": "是繪圖設", "VA": "6.35#6.09"}]}
+{"ID": "6745159:S006", "Quadruplet": []}
+{"ID": "7082330:S081", "Quadruplet": [{"Aspect": ",the", "Category": "LAPTOP#PORTABILITY", "Opinion": "specific[UNK]sequencereferring", "VA": "5.68#5.46"}]}
+{"ID": "7093960:S006", "Quadruplet": [{"Aspect": ",thespecific[UNK]sequencereferringto", "Category": "LAPTOP#PRICE", "Opinion": "thetargetentity", "VA": "5.28#5.8"}]}

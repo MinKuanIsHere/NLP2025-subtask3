@@ -12,7 +12,10 @@ from transformers.optimization import get_linear_schedule_with_warmup
 from torch.optim import AdamW
 
 from Utils import create_directory, ReviewDataset, generate_batches, InferenceReviewDataset, combine_lists, replace_using_dict
-from DataProcess import dataset_process, dataset_inference_process
+from DataProcess import dataset_process, dataset_inference_process, find_insert_position, \
+    backward_aspect_query_template, category_query_template_laptop, category_query_template_restaurant, \
+    valence_query_template, arousal_query_template, backward_opinion_query_template, forward_aspect_query_template, \
+    forward_opinion_query_template
 
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
@@ -114,6 +117,71 @@ def parser_getting():
     return args
 
 
+def build_query_with_spans(tokenize, template, aspect_tokens=None, opinion_tokens=None, domain='lap'):
+    """
+    構建 query，在模板中插入 aspect 和/或 opinion spans
+    使用與訓練時相同的邏輯
+    """
+    # 將模板轉換為 token IDs
+    query_tokens = []
+    for word in template:
+        if word in ['[CLS]', '[SEP]']:
+            query_tokens.append(tokenize.convert_tokens_to_ids(word))
+        else:
+            query_tokens.append(tokenize.convert_tokens_to_ids(word.lower()))
+    
+    # 如果需要插入 aspect 和 opinion
+    if aspect_tokens is not None and opinion_tokens is not None:
+        # 找到插入位置
+        aspect_insert_idx = find_insert_position(template, "aspect", "the")
+        opinion_insert_idx = find_insert_position(template, "opinion", "the")
+        
+        if aspect_insert_idx and opinion_insert_idx and aspect_insert_idx < opinion_insert_idx:
+            # 在正確位置插入
+            query_tokens = (query_tokens[:aspect_insert_idx] + 
+                          aspect_tokens + 
+                          query_tokens[aspect_insert_idx:opinion_insert_idx] + 
+                          opinion_tokens + 
+                          query_tokens[opinion_insert_idx:])
+        else:
+            # 向後兼容：如果找不到，使用原始邏輯（假設模板格式為原始版本）
+            if len(template) >= 9:  # 原始模板格式
+                query_tokens = (query_tokens[:6] + aspect_tokens + 
+                              query_tokens[6:9] + opinion_tokens + 
+                              query_tokens[9:])
+            else:
+                # 如果模板太短，直接追加
+                query_tokens = query_tokens + aspect_tokens + opinion_tokens
+    elif aspect_tokens is not None:
+        # 只插入 aspect（用於 forward opinion query）
+        aspect_insert_idx = find_insert_position(template, "aspect", "the")
+        if aspect_insert_idx:
+            query_tokens = (query_tokens[:aspect_insert_idx] + 
+                          aspect_tokens + 
+                          query_tokens[aspect_insert_idx:])
+        else:
+            # 向後兼容
+            if len(template) >= 6:
+                query_tokens = query_tokens[:6] + aspect_tokens + query_tokens[6:]
+            else:
+                query_tokens = query_tokens + aspect_tokens
+    elif opinion_tokens is not None:
+        # 只插入 opinion（用於 backward aspect query）
+        opinion_insert_idx = find_insert_position(template, "opinion", "the")
+        if opinion_insert_idx:
+            query_tokens = (query_tokens[:opinion_insert_idx] + 
+                          opinion_tokens + 
+                          query_tokens[opinion_insert_idx:])
+        else:
+            # 向後兼容
+            if len(template) >= 6:
+                query_tokens = query_tokens[:6] + opinion_tokens + query_tokens[6:]
+            else:
+                query_tokens = query_tokens + opinion_tokens
+    
+    return query_tokens
+
+
 def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gpu, max_len):
     model.eval()
 
@@ -167,6 +235,9 @@ def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gp
         ok_start_index = batch_dict['forward_asp_answer_start'][0].gt(-1).float().nonzero()
 
         ok_start_tokens = batch_dict['forward_asp_query'][0][ok_start_index].squeeze(1)
+        
+        # 計算 forward_asp_query 中 context 部分的起始位置（模板長度）
+        forward_asp_template_len = len(forward_aspect_query_template)
 
         f_asp_start_scores, f_asp_end_scores = model(batch_dict['forward_asp_query'],
                                                      batch_dict['forward_asp_query_mask'],
@@ -195,13 +266,12 @@ def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gp
             f_asp_start_prob_temp, f_asp_end_prob_temp, f_asp_start_index_temp, f_asp_end_index_temp, max_len)
 
         for start_index in range(len(f_asp_start_index)):
-            opinion_query = tokenize.convert_tokens_to_ids(
-                [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                 '[CLS] What opinion given the aspect'.split(' ')])
-            for j in range(f_asp_start_index[start_index], f_asp_end_index[start_index] + 1):
-                opinion_query.append(batch_dict['forward_asp_query'][0][j].item())
-            opinion_query.append(tokenize.convert_tokens_to_ids('?'))
-            opinion_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+            # 提取 aspect tokens
+            aspect_tokens = [batch_dict['forward_asp_query'][0][j].item() 
+                           for j in range(f_asp_start_index[start_index], f_asp_end_index[start_index] + 1)]
+            # 使用與訓練時相同的模板構建 query
+            opinion_query = build_query_with_spans(tokenize, forward_opinion_query_template, 
+                                                  aspect_tokens=aspect_tokens)
             opinion_query_seg = [0] * len(opinion_query)
             f_opi_length = len(opinion_query)
 
@@ -241,11 +311,30 @@ def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gp
                 f_opi_start_prob_temp, f_opi_end_prob_temp, f_opi_start_index_temp, f_opi_end_index_temp, max_len)
 
             for idx in range(len(f_opi_start_index)):
-                asp = [batch_dict['forward_asp_query'][0][j].item() for j in
-                       range(f_asp_start_index[start_index], f_asp_end_index[start_index] + 1)]
-                opi = [opinion_query[0][j].item() for j in range(f_opi_start_index[idx], f_opi_end_index[idx] + 1)]
-                asp_ind = [f_asp_start_index[start_index] - 5, f_asp_end_index[start_index] - 5]
-                opi_ind = [f_opi_start_index[idx] - f_opi_length, f_opi_end_index[idx] - f_opi_length]
+                # 確保只從 context 部分提取答案（ok_start_tokens）
+                # opinion_query 的結構是：[query_template_with_aspect] + [context_tokens]
+                # 只有當索引 >= f_opi_length 時，才指向 context 部分
+                if f_opi_start_index[idx] >= f_opi_length and f_opi_end_index[idx] >= f_opi_length:
+                    # 從 context 部分提取（ok_start_tokens）
+                    context_start_idx = f_opi_start_index[idx] - f_opi_length
+                    context_end_idx = f_opi_end_index[idx] - f_opi_length
+                    if context_start_idx >= 0 and context_end_idx < len(ok_start_tokens):
+                        opi = [ok_start_tokens[j].item() for j in range(context_start_idx, context_end_idx + 1)]
+                        opi_ind = [context_start_idx, context_end_idx]
+                    else:
+                        continue  # 索引超出範圍，跳過
+                else:
+                    continue  # 索引指向模板部分，跳過（答案應該在 context 中）
+                
+                # 從 forward_asp_query 中提取 aspect（已經確保在 context 部分）
+                asp_context_start = f_asp_start_index[start_index] - forward_asp_template_len
+                asp_context_end = f_asp_end_index[start_index] - forward_asp_template_len
+                if asp_context_start >= 0 and asp_context_end >= 0 and asp_context_end < len(ok_start_tokens):
+                    asp = [ok_start_tokens[j].item() for j in range(asp_context_start, asp_context_end + 1)]
+                    asp_ind = [asp_context_start, asp_context_end]
+                else:
+                    continue  # 索引指向模板部分或超出範圍，跳過
+                
                 # TODO
                 temp_prob = math.sqrt(f_asp_prob[start_index] * f_opi_prob[idx])
                 if asp_ind + opi_ind not in forward_pair_list:
@@ -281,14 +370,12 @@ def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gp
             b_opi_start_prob_temp, b_opi_end_prob_temp, b_opi_start_index_temp, b_opi_end_index_temp, max_len)
 
         for start_index in range(len(b_opi_start_index)):
-            aspect_query = tokenize.convert_tokens_to_ids(
-                [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                 '[CLS] What aspect does the opinion'.split(' ')])
-            for j in range(b_opi_start_index[start_index], b_opi_end_index[start_index] + 1):
-                aspect_query.append(batch_dict['backward_opi_query'][0][j].item())
-            aspect_query.append(tokenize.convert_tokens_to_ids('describe'))
-            aspect_query.append(tokenize.convert_tokens_to_ids('?'))
-            aspect_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+            # 提取 opinion tokens
+            opinion_tokens = [batch_dict['backward_opi_query'][0][j].item() 
+                            for j in range(b_opi_start_index[start_index], b_opi_end_index[start_index] + 1)]
+            # 使用與訓練時相同的模板構建 query
+            aspect_query = build_query_with_spans(tokenize, backward_aspect_query_template, 
+                                                 opinion_tokens=opinion_tokens)
             aspect_query_seg = [0] * len(aspect_query)
             b_asp_length = len(aspect_query)
             aspect_query = torch.tensor(aspect_query).long()
@@ -327,11 +414,31 @@ def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gp
                 b_asp_start_prob_temp, b_asp_end_prob_temp, b_asp_start_index_temp, b_asp_end_index_temp, max_len)
 
             for idx in range(len(b_asp_start_index)):
-                opi = [batch_dict['backward_opi_query'][0][j].item() for j in
-                       range(b_opi_start_index[start_index], b_opi_end_index[start_index] + 1)]
-                asp = [aspect_query[0][j].item() for j in range(b_asp_start_index[idx], b_asp_end_index[idx] + 1)]
-                asp_ind = [b_asp_start_index[idx] - b_asp_length, b_asp_end_index[idx] - b_asp_length]
-                opi_ind = [b_opi_start_index[start_index] - 5, b_opi_end_index[start_index] - 5]
+                # 確保只從 context 部分提取答案
+                # backward_opi_query 的結構是：[query_template] + [context_tokens]
+                backward_opi_template_len = len(backward_opinion_query_template)
+                if b_opi_start_index[start_index] >= backward_opi_template_len and b_opi_end_index[start_index] >= backward_opi_template_len:
+                    opi_context_start = b_opi_start_index[start_index] - backward_opi_template_len
+                    opi_context_end = b_opi_end_index[start_index] - backward_opi_template_len
+                    if opi_context_start >= 0 and opi_context_end < len(ok_start_tokens):
+                        opi = [ok_start_tokens[j].item() for j in range(opi_context_start, opi_context_end + 1)]
+                        opi_ind = [opi_context_start, opi_context_end]
+                    else:
+                        continue
+                else:
+                    continue  # 索引指向模板部分，跳過
+                
+                # aspect_query 的結構是：[query_template_with_opinion] + [context_tokens]
+                if b_asp_start_index[idx] >= b_asp_length and b_asp_end_index[idx] >= b_asp_length:
+                    asp_context_start = b_asp_start_index[idx] - b_asp_length
+                    asp_context_end = b_asp_end_index[idx] - b_asp_length
+                    if asp_context_start >= 0 and asp_context_end < len(ok_start_tokens):
+                        asp = [ok_start_tokens[j].item() for j in range(asp_context_start, asp_context_end + 1)]
+                        asp_ind = [asp_context_start, asp_context_end]
+                    else:
+                        continue
+                else:
+                    continue  # 索引指向模板部分，跳過
                 # TODO
                 temp_prob = math.sqrt(b_asp_prob[idx] * b_opi_prob[start_index])
                 if asp_ind + opi_ind not in backward_pair_ind_list:
@@ -389,15 +496,16 @@ def evaluate(args, model, tokenize, batch_generator, test_data, beta, logger, gp
 
 
                 if args.task == 3 and 'category_query' in batch_dict:
-                    category_query = tokenize.convert_tokens_to_ids(
-                        [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                         '[CLS] What category given the aspect'.split(' ')])
-                    category_query += final_asp_list[idx]
-                    category_query += tokenize.convert_tokens_to_ids(
-                        [word.lower() for word in 'and the opinion'.split(' ')])
-                    category_query += final_opi_list[idx][idy]
-                    category_query.append(tokenize.convert_tokens_to_ids('?'))
-                    category_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+                    # 根據 domain 選擇 category template
+                    if hasattr(args, 'domain') and args.domain == 'res':
+                        category_template = category_query_template_restaurant
+                    else:
+                        category_template = category_query_template_laptop
+                    # 使用與訓練時相同的模板構建 query
+                    category_query = build_query_with_spans(tokenize, category_template,
+                                                           aspect_tokens=final_asp_list[idx],
+                                                           opinion_tokens=final_opi_list[idx][idy],
+                                                           domain=args.domain if hasattr(args, 'domain') else 'lap')
 
                     category_query_seg = [0] * len(category_query)
                     category_query = torch.tensor(category_query).long()
@@ -535,6 +643,9 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
         ok_start_index = batch_dict['forward_asp_answer_start'][0].gt(-1).float().nonzero()
 
         ok_start_tokens = batch_dict['forward_asp_query'][0][ok_start_index].squeeze(1)
+        
+        # 計算 forward_asp_query 中 context 部分的起始位置（模板長度）
+        forward_asp_template_len = len(forward_aspect_query_template)
 
         f_asp_start_scores, f_asp_end_scores = model(batch_dict['forward_asp_query'],
                                                      batch_dict['forward_asp_query_mask'],
@@ -563,13 +674,12 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
             f_asp_start_prob_temp, f_asp_end_prob_temp, f_asp_start_index_temp, f_asp_end_index_temp, max_len)
 
         for start_index in range(len(f_asp_start_index)):
-            opinion_query = tokenize.convert_tokens_to_ids(
-                [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                 '[CLS] What opinion given the aspect'.split(' ')])
-            for j in range(f_asp_start_index[start_index], f_asp_end_index[start_index] + 1):
-                opinion_query.append(batch_dict['forward_asp_query'][0][j].item())
-            opinion_query.append(tokenize.convert_tokens_to_ids('?'))
-            opinion_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+            # 提取 aspect tokens
+            aspect_tokens = [batch_dict['forward_asp_query'][0][j].item() 
+                           for j in range(f_asp_start_index[start_index], f_asp_end_index[start_index] + 1)]
+            # 使用與訓練時相同的模板構建 query
+            opinion_query = build_query_with_spans(tokenize, forward_opinion_query_template, 
+                                                  aspect_tokens=aspect_tokens)
             opinion_query_seg = [0] * len(opinion_query)
             f_opi_length = len(opinion_query)
 
@@ -609,11 +719,30 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
                 f_opi_start_prob_temp, f_opi_end_prob_temp, f_opi_start_index_temp, f_opi_end_index_temp, max_len)
 
             for idx in range(len(f_opi_start_index)):
-                asp = [batch_dict['forward_asp_query'][0][j].item() for j in
-                       range(f_asp_start_index[start_index], f_asp_end_index[start_index] + 1)]
-                opi = [opinion_query[0][j].item() for j in range(f_opi_start_index[idx], f_opi_end_index[idx] + 1)]
-                asp_ind = [f_asp_start_index[start_index] - 5, f_asp_end_index[start_index] - 5]
-                opi_ind = [f_opi_start_index[idx] - f_opi_length, f_opi_end_index[idx] - f_opi_length]
+                # 確保只從 context 部分提取答案（ok_start_tokens）
+                # opinion_query 的結構是：[query_template_with_aspect] + [context_tokens]
+                # 只有當索引 >= f_opi_length 時，才指向 context 部分
+                if f_opi_start_index[idx] >= f_opi_length and f_opi_end_index[idx] >= f_opi_length:
+                    # 從 context 部分提取（ok_start_tokens）
+                    context_start_idx = f_opi_start_index[idx] - f_opi_length
+                    context_end_idx = f_opi_end_index[idx] - f_opi_length
+                    if context_start_idx >= 0 and context_end_idx < len(ok_start_tokens):
+                        opi = [ok_start_tokens[j].item() for j in range(context_start_idx, context_end_idx + 1)]
+                        opi_ind = [context_start_idx, context_end_idx]
+                    else:
+                        continue  # 索引超出範圍，跳過
+                else:
+                    continue  # 索引指向模板部分，跳過（答案應該在 context 中）
+                
+                # 從 forward_asp_query 中提取 aspect（已經確保在 context 部分）
+                asp_context_start = f_asp_start_index[start_index] - forward_asp_template_len
+                asp_context_end = f_asp_end_index[start_index] - forward_asp_template_len
+                if asp_context_start >= 0 and asp_context_end >= 0 and asp_context_end < len(ok_start_tokens):
+                    asp = [ok_start_tokens[j].item() for j in range(asp_context_start, asp_context_end + 1)]
+                    asp_ind = [asp_context_start, asp_context_end]
+                else:
+                    continue  # 索引指向模板部分或超出範圍，跳過
+                
                 # TODO
                 temp_prob = math.sqrt(f_asp_prob[start_index] * f_opi_prob[idx])
                 if asp_ind + opi_ind not in forward_pair_list:
@@ -649,14 +778,12 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
             b_opi_start_prob_temp, b_opi_end_prob_temp, b_opi_start_index_temp, b_opi_end_index_temp, max_len)
 
         for start_index in range(len(b_opi_start_index)):
-            aspect_query = tokenize.convert_tokens_to_ids(
-                [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                 '[CLS] What aspect does the opinion'.split(' ')])
-            for j in range(b_opi_start_index[start_index], b_opi_end_index[start_index] + 1):
-                aspect_query.append(batch_dict['backward_opi_query'][0][j].item())
-            aspect_query.append(tokenize.convert_tokens_to_ids('describe'))
-            aspect_query.append(tokenize.convert_tokens_to_ids('?'))
-            aspect_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+            # 提取 opinion tokens
+            opinion_tokens = [batch_dict['backward_opi_query'][0][j].item() 
+                            for j in range(b_opi_start_index[start_index], b_opi_end_index[start_index] + 1)]
+            # 使用與訓練時相同的模板構建 query
+            aspect_query = build_query_with_spans(tokenize, backward_aspect_query_template, 
+                                                 opinion_tokens=opinion_tokens)
             aspect_query_seg = [0] * len(aspect_query)
             b_asp_length = len(aspect_query)
             aspect_query = torch.tensor(aspect_query).long()
@@ -695,11 +822,31 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
                 b_asp_start_prob_temp, b_asp_end_prob_temp, b_asp_start_index_temp, b_asp_end_index_temp, max_len)
 
             for idx in range(len(b_asp_start_index)):
-                opi = [batch_dict['backward_opi_query'][0][j].item() for j in
-                       range(b_opi_start_index[start_index], b_opi_end_index[start_index] + 1)]
-                asp = [aspect_query[0][j].item() for j in range(b_asp_start_index[idx], b_asp_end_index[idx] + 1)]
-                asp_ind = [b_asp_start_index[idx] - b_asp_length, b_asp_end_index[idx] - b_asp_length]
-                opi_ind = [b_opi_start_index[start_index] - 5, b_opi_end_index[start_index] - 5]
+                # 確保只從 context 部分提取答案
+                # backward_opi_query 的結構是：[query_template] + [context_tokens]
+                backward_opi_template_len = len(backward_opinion_query_template)
+                if b_opi_start_index[start_index] >= backward_opi_template_len and b_opi_end_index[start_index] >= backward_opi_template_len:
+                    opi_context_start = b_opi_start_index[start_index] - backward_opi_template_len
+                    opi_context_end = b_opi_end_index[start_index] - backward_opi_template_len
+                    if opi_context_start >= 0 and opi_context_end < len(ok_start_tokens):
+                        opi = [ok_start_tokens[j].item() for j in range(opi_context_start, opi_context_end + 1)]
+                        opi_ind = [opi_context_start, opi_context_end]
+                    else:
+                        continue
+                else:
+                    continue  # 索引指向模板部分，跳過
+                
+                # aspect_query 的結構是：[query_template_with_opinion] + [context_tokens]
+                if b_asp_start_index[idx] >= b_asp_length and b_asp_end_index[idx] >= b_asp_length:
+                    asp_context_start = b_asp_start_index[idx] - b_asp_length
+                    asp_context_end = b_asp_end_index[idx] - b_asp_length
+                    if asp_context_start >= 0 and asp_context_end < len(ok_start_tokens):
+                        asp = [ok_start_tokens[j].item() for j in range(asp_context_start, asp_context_end + 1)]
+                        asp_ind = [asp_context_start, asp_context_end]
+                    else:
+                        continue
+                else:
+                    continue  # 索引指向模板部分，跳過
                 # TODO
                 temp_prob = math.sqrt(b_asp_prob[idx] * b_opi_prob[start_index])
                 if asp_ind + opi_ind not in backward_pair_ind_list:
@@ -744,15 +891,16 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
 
                 # for category
                 if args.task == 3:
-                    category_query = tokenize.convert_tokens_to_ids(
-                        [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                         '[CLS] What category given the aspect'.split(' ')])
-                    category_query += final_asp_list[idx]
-                    category_query += tokenize.convert_tokens_to_ids(
-                        [word.lower() for word in 'and the opinion'.split(' ')])
-                    category_query += final_opi_list[idx][idy]
-                    category_query.append(tokenize.convert_tokens_to_ids('?'))
-                    category_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+                    # 根據 domain 選擇 category template
+                    if hasattr(args, 'domain') and args.domain == 'res':
+                        category_template = category_query_template_restaurant
+                    else:
+                        category_template = category_query_template_laptop
+                    # 使用與訓練時相同的模板構建 query
+                    category_query = build_query_with_spans(tokenize, category_template,
+                                                           aspect_tokens=final_asp_list[idx],
+                                                           opinion_tokens=final_opi_list[idx][idy],
+                                                           domain=args.domain if hasattr(args, 'domain') else 'lap')
 
                     category_query_seg = [0] * len(category_query)
                     category_query = torch.tensor(category_query).long()
@@ -773,15 +921,10 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
                     category_predicted = None
 
                 # for valence predictor
-                valence_query = tokenize.convert_tokens_to_ids(
-                    [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                     '[CLS] What valence given the aspect'.split(' ')])
-                valence_query += final_asp_list[idx]
-                valence_query += tokenize.convert_tokens_to_ids(
-                    [word.lower() for word in 'and the opinion'.split(' ')])
-                valence_query += final_opi_list[idx][idy]
-                valence_query.append(tokenize.convert_tokens_to_ids('?'))
-                valence_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+                # 使用與訓練時相同的模板構建 query
+                valence_query = build_query_with_spans(tokenize, valence_query_template,
+                                                       aspect_tokens=final_asp_list[idx],
+                                                       opinion_tokens=final_opi_list[idx][idy])
 
                 valence_query_seg = [0] * len(valence_query)
                 valence_query = torch.tensor(valence_query).long()
@@ -799,15 +942,10 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
                 valence_scores = model(valence_query, valence_query_mask, valence_query_seg, 'Valence')
 
                 # for Arousal predictor
-                arousal_query = tokenize.convert_tokens_to_ids(
-                    [word.lower() if word not in ['[CLS]', '[SEP]'] else word for word in
-                     '[CLS] What arousal given the aspect'.split(' ')])
-                arousal_query += final_asp_list[idx]
-                arousal_query += tokenize.convert_tokens_to_ids(
-                    [word.lower() for word in 'and the opinion'.split(' ')])
-                arousal_query += final_opi_list[idx][idy]
-                arousal_query.append(tokenize.convert_tokens_to_ids('?'))
-                arousal_query.append(tokenize.convert_tokens_to_ids('[SEP]'))
+                # 使用與訓練時相同的模板構建 query
+                arousal_query = build_query_with_spans(tokenize, arousal_query_template,
+                                                      aspect_tokens=final_asp_list[idx],
+                                                      opinion_tokens=final_opi_list[idx][idy])
 
                 arousal_query_seg = [0] * len(arousal_query)
                 arousal_query = torch.tensor(arousal_query).long()
@@ -848,21 +986,43 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
         # print(str(batch_index).center(20, "="))
         # print(batch_dict['id'])
         # print(batch_dict['line'])
-        word_list_ids = batch_dict['forward_asp_query'][0][5:]
+        # 使用實際的模板長度來提取 context 部分，而不是硬編碼 [5:]
+        forward_asp_template_len = len(forward_aspect_query_template)
+        word_list_ids = batch_dict['forward_asp_query'][0][forward_asp_template_len:]
         # print(tokenize.convert_ids_to_tokens(word_list_ids))
         for triplet in triplets_predict:
-            # print(triplet)
-            # print(tokenize.decode(word_list_ids[triplet[0]:triplet[1]+1]),
-            # tokenize.decode(word_list_ids[triplet[2]:triplet[3]+1]),
-            # ids_to_categories[triplet[4]] if triplet[4] is not None else None, sep=',')
-
+            # 驗證索引是否有效
+            asp_start, asp_end = triplet[0], triplet[1]
+            opi_start, opi_end = triplet[2], triplet[3]
+            
+            # 檢查索引是否在有效範圍內
+            if (asp_start < 0 or asp_end < 0 or asp_start >= len(word_list_ids) or 
+                asp_end >= len(word_list_ids) or asp_start > asp_end or
+                opi_start < 0 or opi_end < 0 or opi_start >= len(word_list_ids) or 
+                opi_end >= len(word_list_ids) or opi_start > opi_end):
+                # 跳過無效的索引
+                continue
+            
             meta_triplet = {}
-            meta_triplet["Aspect"] = tokenize.decode(word_list_ids[triplet[0]:triplet[1] + 1])
-            meta_triplet["Opinion"] = tokenize.decode(word_list_ids[triplet[2]:triplet[3]+1])
+            # 安全地解碼 tokens
+            asp_tokens = word_list_ids[asp_start:asp_end + 1]
+            opi_tokens = word_list_ids[opi_start:opi_end + 1]
+            
+            if len(asp_tokens) == 0 or len(opi_tokens) == 0:
+                continue  # 跳過空的 tokens
+            
+            meta_triplet["Aspect"] = tokenize.decode(asp_tokens)
+            meta_triplet["Opinion"] = tokenize.decode(opi_tokens)
             meta_triplet["VA"] = triplet[5] + "#" + triplet[6]
+            
             if args.language in ['zho', 'jpn']:
                 meta_triplet["Aspect"] = meta_triplet["Aspect"].replace(" ", "")
                 meta_triplet["Opinion"] = meta_triplet["Opinion"].replace(" ", "")
+            
+            # 檢查解碼後的結果是否為空或只包含空白字符
+            if not meta_triplet["Aspect"].strip() or not meta_triplet["Opinion"].strip():
+                continue  # 跳過空的結果
+            
             dump_data_triple['Triplet'].append(meta_triplet)
             if args.task == 3:
                 meta_quadra = {}
