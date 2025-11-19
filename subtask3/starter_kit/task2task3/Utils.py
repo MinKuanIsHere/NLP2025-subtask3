@@ -319,24 +319,13 @@ def generate_batches(dataset, batch_size, shuffle=True, drop_last=True, gpu=True
 
 
 def create_directory(arguments):
-    if not os.path.exists(arguments.log_path):
-        os.makedirs(arguments.log_path)
-    if not os.path.exists(arguments.save_model_path):
-        os.makedirs(arguments.save_model_path)
-    if not os.path.exists(arguments.output_path):
-        subtask2_path = arguments.output_path + "subtask_2/"
-        subtask3_path = arguments.output_path + "subtask_3/"
-        os.makedirs(arguments.output_path)
-        os.makedirs(subtask2_path)
-        os.makedirs(subtask3_path)
-    log_path = arguments.log_path + arguments.model_name + '.log'
-    model_path = arguments.save_model_path + arguments.model_name + '.pth'
+    os.makedirs(arguments.log_path, exist_ok=True)
+    os.makedirs(arguments.save_model_path, exist_ok=True)
 
-    if not os.path.exists(log_path):
-        log = open(log_path, 'w')
-        log.close()
-        model = open(model_path, 'w')
-        model.close()
+    subtask2_path = os.path.join(arguments.output_path, "subtask_2")
+    subtask3_path = os.path.join(arguments.output_path, "subtask_3")
+    os.makedirs(subtask2_path, exist_ok=True)
+    os.makedirs(subtask3_path, exist_ok=True)
 
 def combine_lists(list1, list2):
     combinations = [f"{s1}#{s2}" for s1 in list1 for s2 in list2]

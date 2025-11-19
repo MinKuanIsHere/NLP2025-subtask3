@@ -1,5 +1,6 @@
 from transformers import BertModel
 import torch.nn as nn
+import os
 
 
 class DimABSA(nn.Module):
@@ -7,7 +8,21 @@ class DimABSA(nn.Module):
 
         super(DimABSA, self).__init__()
 
-        self.bert = BertModel.from_pretrained(bert_model_type)
+        # For models with only .bin files (like hfl/chinese-roberta-wwm-ext-large),
+        # try loading with local_files_only first, then fall back to normal download
+        # This bypasses the auto-conversion check that fails when discussions are disabled
+        try:
+            self.bert = BertModel.from_pretrained(
+                bert_model_type,
+                local_files_only=True
+            )
+        except (OSError, ValueError):
+            # If not cached, download with use_safetensors=False to force .bin usage
+            # and avoid auto-conversion attempts
+            self.bert = BertModel.from_pretrained(
+                bert_model_type,
+                use_safetensors=False  # Explicitly use .bin files
+            )
 
         self.classifier_a_start = nn.Linear(hidden_size, 2)
         self.classifier_a_end = nn.Linear(hidden_size, 2)

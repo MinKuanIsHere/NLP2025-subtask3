@@ -82,6 +82,7 @@ def parser_getting():
     parser.add_argument('--save_model_path', type=str, default="./model/")
     parser.add_argument('--output_path', type=str, default="./tasks/")
     parser.add_argument('--model_name', type=str, default="AOC")
+    parser.add_argument('--prediction_name', type=str, default=None)
 
     parser.add_argument('--train_data', type=str, default="eng_restaurant_train_alltasks.jsonl")
     parser.add_argument('--infer_data', type=str, default="eng_restaurant_dev_task2.jsonl")
@@ -106,6 +107,8 @@ def parser_getting():
     parser.add_argument('--tuning_bert_rate', type=float, default=1e-5)
     parser.add_argument('--warm_up', type=float, default=0.1)
     parser.add_argument('--beta', type=float, default=1)
+    parser.add_argument('--max_train_samples', type=int, default=None)
+    parser.add_argument('--max_infer_samples', type=int, default=None)
 
     args = parser.parse_args()
     return args
@@ -872,14 +875,21 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
         output_data_triple.append(dump_data_triple)
         output_data_quadra.append(dump_data_quadra)
 
-    out_put_file_task2_name = args.output_path + "subtask_2/" + out_put_file_name_map[args.domain + '_' + args.language]
+    key = args.domain + '_' + args.language
+    subtask2_dir = os.path.join(args.output_path, "subtask_2")
+    subtask3_dir = os.path.join(args.output_path, "subtask_3")
+    os.makedirs(subtask2_dir, exist_ok=True)
+    os.makedirs(subtask3_dir, exist_ok=True)
+
+    out_put_file_task2_name = os.path.join(subtask2_dir, out_put_file_name_map[key])
     with open(out_put_file_task2_name, 'w', encoding='utf-8') as f:
         for i, item in enumerate(output_data_triple):
             json_str = json.dumps(item, ensure_ascii=False)
             f.write(json_str+'\n')
 
     if args.task == 3:
-        out_put_file_task3_name = args.output_path + "subtask_3/" + out_put_file_name_map[args.domain + '_' + args.language]
+        pred_filename = args.prediction_name if args.prediction_name else out_put_file_name_map[key]
+        out_put_file_task3_name = os.path.join(subtask3_dir, pred_filename)
         with open(out_put_file_task3_name, 'w', encoding='utf-8') as f:
             for i, item in enumerate(output_data_quadra):
                 json_str = json.dumps(item, ensure_ascii=False)
@@ -887,8 +897,8 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
 
 
 def train(args, train_total_data, test_total_data, inference_dataset, category_mapping):
-    log_path = args.log_path + args.model_name + '.log'
-    model_path = args.save_model_path + 'task' + str(args.task) + '_' + args.domain + '_' + args.language + '.pth'
+    log_path = os.path.join(args.log_path, args.model_name + '.log')
+    model_path = os.path.join(args.save_model_path, args.model_name + '.pth')
 
     # init logger and tokenize
     logger, fh, sh = Utils.get_logger(log_path)
@@ -1136,6 +1146,10 @@ def train(args, train_total_data, test_total_data, inference_dataset, category_m
         # do inference
         ID_list, Text_list, QA_list = inference_dataset
         inf_dataset = InferenceReviewDataset(args, QA_list)
+        if not os.path.exists(model_path) or os.path.getsize(model_path) == 0:
+            logger.info('No checkpoint was saved during training; saving final epoch weights.')
+            state = {'net': model.state_dict(), 'optimizer': optimizer.state_dict(), 'epoch': args.epoch_num}
+            torch.save(state, model_path)
         logger.info('loading model......')
         checkpoint = torch.load(model_path)
         model.load_state_dict(checkpoint['net'])
@@ -1166,6 +1180,9 @@ def load_inference_data(args):
             text = data['Text'].lower()
             text = " ".join(tokenizer.tokenize(text))
             inference_datasets.append((data_id, text))
+
+    if args.max_infer_samples is not None:
+        inference_datasets = inference_datasets[:args.max_infer_samples]
 
     inference_dataset = dataset_inference_process(args, inference_datasets, category_dict, tokenizer)
 
@@ -1205,6 +1222,8 @@ def load_train_data_multilingual(args):
 
     random.seed(42)
     random.shuffle(all_data)
+    if args.max_train_samples is not None:
+        all_data = all_data[:args.max_train_samples]
 
     # splitting training dataset for new_training dataset and development data
     total_count = len(all_data)

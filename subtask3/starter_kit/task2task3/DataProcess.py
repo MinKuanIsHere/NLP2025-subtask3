@@ -1,5 +1,6 @@
 import random
 import re
+import os
 import Utils as Data
 from transformers import AutoTokenizer
 
@@ -10,13 +11,100 @@ triplet_pattern = re.compile(r'[(](.*?)[)]', re.S)  # 匹配圆括号 () 中的�
 aspect_and_opinion_pattern = re.compile(r'[\[](.*?)[]]', re.S)  # 匹配方括号 [] 中的内容
 category_pattern = re.compile(r"['](.*?)[']", re.S)
 
-forward_aspect_query_template = ["[CLS]", "what", "aspects", "?", "[SEP]"]
-forward_opinion_query_template = ["[CLS]", "what", "opinion", "given", "the", "aspect", "?", "[SEP]"]
-backward_opinion_query_template = ["[CLS]", "what", "opinions", "?", "[SEP]"]
-backward_aspect_query_template = ["[CLS]", "what", "aspect", "does", "the", "opinion", "describe", "?", "[SEP]"]
-category_query_template = ["[CLS]", "what", "category", "given", "the", "aspect", "and", "the", "opinion", "?", "[SEP]"]
-valence_query_template = ["[CLS]", "what", "valence", "given", "the", "aspect", "and", "the", "opinion", "?", "[SEP]"]
-arousal_query_template = ["[CLS]", "what", "arousal", "given", "the", "aspect", "and", "the", "opinion", "?", "[SEP]"]
+# ========== 原始 Query Templates ==========
+forward_aspect_query_template_original = ["[CLS]", "what", "aspects", "?", "[SEP]"]
+forward_opinion_query_template_original = ["[CLS]", "what", "opinion", "given", "the", "aspect", "?", "[SEP]"]
+backward_opinion_query_template_original = ["[CLS]", "what", "opinions", "?", "[SEP]"]
+backward_aspect_query_template_original = ["[CLS]", "what", "aspect", "does", "the", "opinion", "describe", "?", "[SEP]"]
+category_query_template_original = ["[CLS]", "what", "category", "given", "the", "aspect", "and", "the", "opinion", "?", "[SEP]"]
+valence_query_template_original = ["[CLS]", "what", "valence", "given", "the", "aspect", "and", "the", "opinion", "?", "[SEP]"]
+arousal_query_template_original = ["[CLS]", "what", "arousal", "given", "the", "aspect", "and", "the", "opinion", "?", "[SEP]"]
+
+# ========== 完整版優化 Query Templates ==========
+forward_aspect_query_template_optimized = [
+    "[CLS]", "what", "ASPECT", "SPAN", "(", "i.e.", ",", "the", "specific", "token", "sequence", 
+    "referring", "to", "the", "target", "entity", "or", "its", "attribute", ")", "is", "mentioned", 
+    "in", "the", "text", "?", "This", "is", "a", "Span", "Extraction", "task", ".", "The", "output", 
+    "must", "be", "the", "precise", "word", "sequence", "from", "the", "context", ".", "[SEP]"
+]
+
+forward_opinion_query_template_optimized = [
+    "[CLS]", "what", "OPINION", "SPAN", "(", "i.e.", ",", "the", "precise", "token", "sequence", 
+    "expressing", "the", "evaluative", "stance", "or", "emotion", ")", "is", "given", "for", "the", 
+    "aspect", "?", "The", "output", "must", "be", "the", "exact", "token", "span", "expressing", 
+    "judgment", ".", "[SEP]"
+]
+
+backward_opinion_query_template_optimized = [
+    "[CLS]", "what", "OPINION", "SPANS", "(", "i.e.", ",", "the", "tokens", "expressing", "sentiment", 
+    "or", "evaluation", ")", "are", "mentioned", "in", "the", "text", "?", "Identify", "all", 
+    "evaluative", "expressions", ".", "This", "is", "a", "sequence", "labeling", "task", ".", "[SEP]"
+]
+
+backward_aspect_query_template_optimized = [
+    "[CLS]", "what", "ASPECT", "SPAN", "(", "i.e.", ",", "the", "entity", "or", "attribute", "span", 
+    ")", "does", "the", "opinion", "describe", "?", "The", "goal", "is", "to", "link", "the", 
+    "opinion", "span", "back", "to", "its", "corresponding", "target", "span", "in", "the", 
+    "context", ".", "[SEP]"
+]
+
+# Category templates - 根據 domain 動態選擇
+category_query_template_laptop_optimized = [
+    "[CLS]", "what", "COMPOSITE", "CATEGORY", "LABEL", "(", "i.e.", ",", "the", "single", "predefined", 
+    "string", "representing", "Entity#Attribute", ",", "such", "as", "DISPLAY#QUALITY", ")", "given", 
+    "the", "aspect", "and", "opinion", "?", "This", "is", "a", "Classification", "task", ".", "The", 
+    "output", "must", "be", "one", "label", "from", "the", "Laptop", "domain", "'", "s", "composite", 
+    "set", ".", "[SEP]"
+]
+
+category_query_template_restaurant_optimized = [
+    "[CLS]", "what", "COMPOSITE", "CATEGORY", "LABEL", "(", "i.e.", ",", "the", "single", "predefined", 
+    "string", "representing", "Entity#Attribute", ",", "such", "as", "FOOD#QUALITY", "or", 
+    "SERVICE#GENERAL", ")", "given", "the", "aspect", "and", "opinion", "?", "This", "is", "a", 
+    "Classification", "task", ".", "The", "output", "must", "be", "one", "label", "from", "the", 
+    "Restaurant", "domain", "'", "s", "composite", "set", ".", "[SEP]"
+]
+
+valence_query_template_optimized = [
+    "[CLS]", "what", "VALENCE", "SCORE", "(", "i.e.", ",", "the", "continuous", "rating", "on", "the", 
+    "Pleasure/Displeasure", "dimension", "(", "horizontal", "axis", ")", ")", "is", "given", "?", 
+    "The", "score", "measures", "the", "emotion", "'", "s", "pleasantness", "(", "e.g.", ",", "1-9", 
+    "scale", ",", "5=neutral", ")", ".", "[SEP]"
+]
+
+arousal_query_template_optimized = [
+    "[CLS]", "what", "AROUSAL", "SCORE", "(", "i.e.", ",", "the", "continuous", "rating", "on", "the", 
+    "Activation/Deactivation", "dimension", "(", "vertical", "axis", ")", ")", "is", "given", "?", 
+    "The", "score", "measures", "the", "emotion", "'", "s", "intensity", "(", "e.g.", ",", "1-9", 
+    "scale", ",", "5=moderate", "energy", ")", ".", "[SEP]"
+]
+
+# ========== 根據環境變數選擇使用哪個版本的 Template ==========
+# 如果環境變數 USE_OPTIMIZED_QUERY 設為 "0" 或 "false"，使用原始版本；否則使用優化版本
+USE_OPTIMIZED_QUERY = os.environ.get('USE_OPTIMIZED_QUERY', '1').lower() not in ['0', 'false', 'no']
+
+if USE_OPTIMIZED_QUERY:
+    # 使用優化版本
+    forward_aspect_query_template = forward_aspect_query_template_optimized
+    forward_opinion_query_template = forward_opinion_query_template_optimized
+    backward_opinion_query_template = backward_opinion_query_template_optimized
+    backward_aspect_query_template = backward_aspect_query_template_optimized
+    category_query_template_laptop = category_query_template_laptop_optimized
+    category_query_template_restaurant = category_query_template_restaurant_optimized
+    valence_query_template = valence_query_template_optimized
+    arousal_query_template = arousal_query_template_optimized
+    category_query_template = category_query_template_laptop_optimized
+else:
+    # 使用原始版本
+    forward_aspect_query_template = forward_aspect_query_template_original
+    forward_opinion_query_template = forward_opinion_query_template_original
+    backward_opinion_query_template = backward_opinion_query_template_original
+    backward_aspect_query_template = backward_aspect_query_template_original
+    category_query_template_laptop = category_query_template_original
+    category_query_template_restaurant = category_query_template_original
+    valence_query_template = valence_query_template_original
+    arousal_query_template = arousal_query_template_original
+    category_query_template = category_query_template_original
 
 
 def print_QA(QA: Data.QueryAndAnswer, tokenizer):
@@ -423,7 +511,32 @@ def get_start_end(str_list):
     return [index_list[0] + 1, index_list[-1] + 1]
 
 
+def find_insert_position(template, target_word, context_word=None):
+    """
+    在 template 中找到插入位置
+    target_word: 要查找的詞（如 "aspect", "opinion"）
+    context_word: 上下文詞（如 "the"），用於精確定位
+    返回插入位置的索引（在該詞之後插入）
+    """
+    for idx in range(len(template)):
+        if template[idx] == target_word:
+            if context_word is None:
+                return idx + 1
+            elif idx > 0 and template[idx - 1] == context_word:
+                return idx + 1
+    return None
+
+
 def make_QA(args, line, word_list, aspect_list, opinion_list, category_list, valence_list, arousal_list):
+    # ========== 根據 domain 選擇 category template ==========
+    if hasattr(args, 'domain'):
+        if args.domain == 'res':  # restaurant 使用 restaurant template
+            category_query_template = category_query_template_restaurant
+        else:  # laptop, hotel, finance 使用 laptop template
+            category_query_template = category_query_template_laptop
+    else:
+        category_query_template = category_query_template_laptop  # 預設
+    
     # word_list.append("[SEP]")
     forward_asp_query = forward_aspect_query_template + word_list
     forward_asp_query_mask = [1] * len(forward_asp_query)
@@ -483,8 +596,17 @@ def make_QA(args, line, word_list, aspect_list, opinion_list, category_list, val
         forward_asp_answer_start[len(forward_aspect_query_template) + asp[0]] = 1
         forward_asp_answer_end[len(forward_aspect_query_template) + asp[1]] = 1
 
-        opi_query_temp = forward_opinion_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
-                         forward_opinion_query_template[6:] + word_list
+        # Forward Opinion Query: 在 "the aspect" 之後插入實際的 aspect
+        aspect_insert_idx = find_insert_position(forward_opinion_query_template, "aspect", "the")
+        if aspect_insert_idx:
+            opi_query_temp = (forward_opinion_query_template[:aspect_insert_idx] + 
+                            word_list[asp[0]:asp[1] + 1] + 
+                            forward_opinion_query_template[aspect_insert_idx:] + 
+                            word_list)
+        else:
+            # 向後兼容：如果找不到，使用原始邏輯
+            opi_query_temp = forward_opinion_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
+                           forward_opinion_query_template[6:] + word_list
         forward_opi_query.append(opi_query_temp)
 
         opi_query_mask_temp = [1] * len(opi_query_temp)
@@ -502,8 +624,17 @@ def make_QA(args, line, word_list, aspect_list, opinion_list, category_list, val
         backward_opi_answer_start[len(backward_opinion_query_template) + opi[0]] = 1
         backward_opi_answer_end[len(backward_opinion_query_template) + opi[1]] = 1
 
-        asp_query_temp = backward_aspect_query_template[0:6] + word_list[opi[0]:opi[1] + 1] + \
-                         backward_aspect_query_template[6:] + word_list
+        # Backward Aspect Query: 在 "the opinion" 之後插入實際的 opinion
+        opinion_insert_idx = find_insert_position(backward_aspect_query_template, "opinion", "the")
+        if opinion_insert_idx:
+            asp_query_temp = (backward_aspect_query_template[:opinion_insert_idx] + 
+                            word_list[opi[0]:opi[1] + 1] + 
+                            backward_aspect_query_template[opinion_insert_idx:] + 
+                            word_list)
+        else:
+            # 向後兼容：如果找不到，使用原始邏輯
+            asp_query_temp = backward_aspect_query_template[0:6] + word_list[opi[0]:opi[1] + 1] + \
+                           backward_aspect_query_template[6:] + word_list
         backward_asp_query.append(asp_query_temp)
 
         asp_query_mask_temp = [1] * len(asp_query_temp)
@@ -536,9 +667,21 @@ def make_QA(args, line, word_list, aspect_list, opinion_list, category_list, val
                 category_word_list_temp[opinion_index] = word_list[opinion_index]
                 category_query_mask_init_temp[opinion_index] = 1
 
-            category_query_temp = category_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
-                                  category_query_template[6:9] + word_list[opi[0]:opi[1] + 1] + \
-                                  category_query_template[9:] + category_word_list_temp
+            # Category Query: 在 "the aspect" 和 "the opinion" 之後插入實際的 aspect 和 opinion
+            aspect_insert_idx = find_insert_position(category_query_template, "aspect", "the")
+            opinion_insert_idx = find_insert_position(category_query_template, "opinion", "the")
+            if aspect_insert_idx and opinion_insert_idx and aspect_insert_idx < opinion_insert_idx:
+                category_query_temp = (category_query_template[:aspect_insert_idx] + 
+                                     word_list[asp[0]:asp[1] + 1] + 
+                                     category_query_template[aspect_insert_idx:opinion_insert_idx] + 
+                                     word_list[opi[0]:opi[1] + 1] + 
+                                     category_query_template[opinion_insert_idx:] + 
+                                     category_word_list_temp)
+            else:
+                # 向後兼容：如果找不到，使用原始邏輯
+                category_query_temp = category_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
+                                    category_query_template[6:9] + word_list[opi[0]:opi[1] + 1] + \
+                                    category_query_template[9:] + category_word_list_temp
             category_query.append(category_query_temp)
             category_query_mask_temp = [1] * (len(category_query_temp) - len(category_word_list_temp)) + \
                                        category_query_mask_init_temp
@@ -549,9 +692,21 @@ def make_QA(args, line, word_list, aspect_list, opinion_list, category_list, val
 
         valence_word_list_temp = valence_word_list[:]
         valence_query_mask_init_temp = valence_query_mask_init[:]
-        valence_query_temp = valence_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
-                             valence_query_template[6:9] + word_list[opi[0]:opi[1] + 1] + \
-                             valence_query_template[9:] + valence_word_list_temp
+        # Valence Query: 在 "the aspect" 和 "the opinion" 之後插入實際的 aspect 和 opinion
+        aspect_insert_idx = find_insert_position(valence_query_template, "aspect", "the")
+        opinion_insert_idx = find_insert_position(valence_query_template, "opinion", "the")
+        if aspect_insert_idx and opinion_insert_idx and aspect_insert_idx < opinion_insert_idx:
+            valence_query_temp = (valence_query_template[:aspect_insert_idx] + 
+                                word_list[asp[0]:asp[1] + 1] + 
+                                valence_query_template[aspect_insert_idx:opinion_insert_idx] + 
+                                word_list[opi[0]:opi[1] + 1] + 
+                                valence_query_template[opinion_insert_idx:] + 
+                                valence_word_list_temp)
+        else:
+            # 向後兼容：如果找不到，使用原始邏輯
+            valence_query_temp = valence_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
+                               valence_query_template[6:9] + word_list[opi[0]:opi[1] + 1] + \
+                               valence_query_template[9:] + valence_word_list_temp
         valence_query_mask_temp = [1] * (len(valence_query_temp) - len(valence_word_list_temp)) + \
                                   valence_query_mask_init_temp
         valence_query_seg_temp = [0] * (len(valence_query_temp) - len(valence_word_list_temp)) + \
@@ -562,9 +717,21 @@ def make_QA(args, line, word_list, aspect_list, opinion_list, category_list, val
 
         arousal_word_list_temp = arousal_word_list[:]
         arousal_query_mask_init_temp = arousal_query_mask_init[:]
-        arousal_query_temp = arousal_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
-                             arousal_query_template[6:9] + word_list[opi[0]:opi[1] + 1] + \
-                             arousal_query_template[9:] + arousal_word_list_temp
+        # Arousal Query: 在 "the aspect" 和 "the opinion" 之後插入實際的 aspect 和 opinion
+        aspect_insert_idx = find_insert_position(arousal_query_template, "aspect", "the")
+        opinion_insert_idx = find_insert_position(arousal_query_template, "opinion", "the")
+        if aspect_insert_idx and opinion_insert_idx and aspect_insert_idx < opinion_insert_idx:
+            arousal_query_temp = (arousal_query_template[:aspect_insert_idx] + 
+                                word_list[asp[0]:asp[1] + 1] + 
+                                arousal_query_template[aspect_insert_idx:opinion_insert_idx] + 
+                                word_list[opi[0]:opi[1] + 1] + 
+                                arousal_query_template[opinion_insert_idx:] + 
+                                arousal_word_list_temp)
+        else:
+            # 向後兼容：如果找不到，使用原始邏輯
+            arousal_query_temp = arousal_query_template[0:6] + word_list[asp[0]:asp[1] + 1] + \
+                               arousal_query_template[6:9] + word_list[opi[0]:opi[1] + 1] + \
+                               arousal_query_template[9:] + arousal_word_list_temp
         arousal_query_mask_temp = [1] * (len(arousal_query_temp) - len(arousal_word_list_temp)) + \
                                   arousal_query_mask_init_temp
         arousal_query_seg_temp = [0] * (len(arousal_query_temp) - len(arousal_word_list_temp)) + \
