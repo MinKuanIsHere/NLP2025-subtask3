@@ -2,7 +2,7 @@
 {"ID": "R6121:S000", "Quadruplet": []}
 {"ID": "R6153:S005", "Quadruplet": []}
 {"ID": "R9436:S012", "Quadruplet": []}
-{"ID": "R7821:S000", "Quadruplet": []}
+{"ID": "R7821:S000", "Quadruplet": [{"Aspect": "炒飯", "Category": "FOOD#QUALITY", "Opinion": "好吃", "VA": "6.7#6.54"}]}
 {"ID": "R9226:S009", "Quadruplet": []}
 {"ID": "R10121:S004", "Quadruplet": []}
 {"ID": "R9257:S002", "Quadruplet": []}
@@ -50,7 +50,7 @@
 {"ID": "R10147:S005", "Quadruplet": []}
 {"ID": "R8205:S000", "Quadruplet": []}
 {"ID": "R5764:S000", "Quadruplet": []}
-{"ID": "R7449:S004", "Quadruplet": []}
+{"ID": "R7449:S004", "Quadruplet": [{"Aspect": "烤肉串", "Category": "FOOD#QUALITY", "Opinion": "不錯", "VA": "7.14#7.0"}, {"Aspect": "烤肉串", "Category": "FOOD#QUALITY", "Opinion": "偏重", "VA": "7.2#7.07"}]}
 {"ID": "R9250:S011", "Quadruplet": []}
 {"ID": "R7016:S004", "Quadruplet": []}
 {"ID": "R7098:S000", "Quadruplet": []}
@@ -63,7 +63,7 @@
 {"ID": "R6155:S001", "Quadruplet": []}
 {"ID": "R7987:S001", "Quadruplet": []}
 {"ID": "R10329:S020", "Quadruplet": []}
-{"ID": "R6083:S000", "Quadruplet": []}
+{"ID": "R6083:S000", "Quadruplet": [{"Aspect": "香草", "Category": "FOOD#QUALITY", "Opinion": "很好", "VA": "5.92#6.03"}]}
 {"ID": "R8272:S000", "Quadruplet": []}
 {"ID": "R9812:S031", "Quadruplet": []}
 {"ID": "R6045:S003", "Quadruplet": []}
@@ -74,14 +74,14 @@
 {"ID": "R6125:S001", "Quadruplet": []}
 {"ID": "R7525:S000", "Quadruplet": []}
 {"ID": "R6065:S004", "Quadruplet": []}
-{"ID": "R6151:S000", "Quadruplet": []}
+{"ID": "R6151:S000", "Quadruplet": [{"Aspect": "沙拉跟飲料", "Category": "FOOD#QUALITY", "Opinion": "更好", "VA": "6.25#6.04"}]}
 {"ID": "R9241:S018", "Quadruplet": []}
 {"ID": "R10149:S008", "Quadruplet": []}
 {"ID": "R8032:S000", "Quadruplet": []}
 {"ID": "R10019:S001", "Quadruplet": []}
 {"ID": "R6014:S000", "Quadruplet": []}
 {"ID": "R9396:S024", "Quadruplet": []}
-{"ID": "R5710:S000", "Quadruplet": []}
+{"ID": "R5710:S000", "Quadruplet": [{"Aspect": "櫛瓜", "Category": "FOOD#QUALITY", "Opinion": "很好吃", "VA": "7.08#6.88"}, {"Aspect": "櫛瓜", "Category": "FOOD#QUALITY", "Opinion": "不錯", "VA": "7.09#6.86"}]}
 {"ID": "R10334:S003", "Quadruplet": []}
 {"ID": "R7365:S000", "Quadruplet": []}
 {"ID": "R9604:S019", "Quadruplet": []}
@@ -92,7 +92,7 @@
 {"ID": "R9422:S021", "Quadruplet": []}
 {"ID": "R6018:S000", "Quadruplet": []}
 {"ID": "R8227:S000", "Quadruplet": []}
-{"ID": "R6321:S001", "Quadruplet": []}
+{"ID": "R6321:S001", "Quadruplet": [{"Aspect": "燉飯", "Category": "FOOD#QUALITY", "Opinion": "還可以", "VA": "7.2#6.92"}]}
 {"ID": "R7167:S001", "Quadruplet": []}
 {"ID": "R5986:S000", "Quadruplet": []}
 {"ID": "R6765:S000", "Quadruplet": []}
@@ -102,7 +102,7 @@
 {"ID": "R8527:S000", "Quadruplet": []}
 {"ID": "R6094:S000", "Quadruplet": []}
 {"ID": "R8912:S000", "Quadruplet": []}
-{"ID": "R9090:S000", "Quadruplet": []}
+{"ID": "R9090:S000", "Quadruplet": [{"Aspect": "漢堡", "Category": "FOOD#QUALITY", "Opinion": "好吃", "VA": "7.08#7.0"}, {"Aspect": "薯條", "Category": "FOOD#QUALITY", "Opinion": "好吃", "VA": "6.96#6.96"}]}
 {"ID": "R5911:S000", "Quadruplet": []}
 {"ID": "R8576:S003", "Quadruplet": []}
 {"ID": "R5749:S003", "Quadruplet": []}
@@ -129,14 +129,14 @@
 {"ID": "R6068:S000", "Quadruplet": []}
 {"ID": "R5920:S000", "Quadruplet": []}
 {"ID": "R6233:S003", "Quadruplet": []}
-{"ID": "R6542:S000", "Quadruplet": []}
+{"ID": "R6542:S000", "Quadruplet": [{"Aspect": "燜雞", "Category": "FOOD#QUALITY", "Opinion": "很香", "VA": "7.08#6.83"}, {"Aspect": "燜雞", "Category": "FOOD#QUALITY", "Opinion": "很好吃", "VA": "7.03#6.8"}]}
 {"ID": "R6135:S007", "Quadruplet": []}
 {"ID": "R10288:S007", "Quadruplet": []}
 {"ID": "R5826:S000", "Quadruplet": []}
 {"ID": "R5887:S000", "Quadruplet": []}
 {"ID": "R7228:S000", "Quadruplet": []}
 {"ID": "R6389:S002", "Quadruplet": []}
-{"ID": "R5908:S000", "Quadruplet": []}
+{"ID": "R5908:S000", "Quadruplet": [{"Aspect": "甜湯", "Category": "FOOD#QUALITY", "Opinion": "非常好吃", "VA": "6.57#6.55"}, {"Aspect": "甜湯", "Category": "FOOD#QUALITY", "Opinion": "超好吃", "VA": "6.33#6.4"}, {"Aspect": "甜湯", "Category": "FOOD#QUALITY", "Opinion": "好吃", "VA": "6.31#6.28"}]}
 {"ID": "R10517:S008", "Quadruplet": []}
 {"ID": "R7988:S000", "Quadruplet": []}
 {"ID": "R9643:S013", "Quadruplet": []}
@@ -168,14 +168,14 @@
 {"ID": "R5759:S000", "Quadruplet": []}
 {"ID": "R6004:S000", "Quadruplet": []}
 {"ID": "R10010:S020", "Quadruplet": []}
-{"ID": "R5706:S000", "Quadruplet": []}
+{"ID": "R5706:S000", "Quadruplet": [{"Aspect": "羊肉串", "Category": "FOOD#QUALITY", "Opinion": "好吃", "VA": "6.76#6.56"}]}
 {"ID": "R5884:S000", "Quadruplet": []}
 {"ID": "R6563:S000", "Quadruplet": []}
 {"ID": "R5831:S000", "Quadruplet": []}
-{"ID": "R6101:S001", "Quadruplet": []}
+{"ID": "R6101:S001", "Quadruplet": [{"Aspect": "生麵麵條", "Category": "FOOD#QUALITY", "Opinion": "很大方", "VA": "6.91#6.77"}, {"Aspect": "生麵麵條", "Category": "FOOD#QUALITY", "Opinion": "很濃郁", "VA": "6.86#6.8"}]}
 {"ID": "R5992:S000", "Quadruplet": []}
 {"ID": "R5779:S000", "Quadruplet": []}
-{"ID": "R9121:S000", "Quadruplet": []}
+{"ID": "R9121:S000", "Quadruplet": [{"Aspect": "漢堡", "Category": "FOOD#QUALITY", "Opinion": "超好", "VA": "6.62#6.73"}]}
 {"ID": "R10006:S018", "Quadruplet": []}
 {"ID": "R8306:S001", "Quadruplet": []}
 {"ID": "R9115:S000", "Quadruplet": []}
@@ -186,7 +186,7 @@
 {"ID": "R5714:S002", "Quadruplet": []}
 {"ID": "R8564:S001", "Quadruplet": []}
 {"ID": "R8028:S000", "Quadruplet": []}
-{"ID": "R9152:S000", "Quadruplet": []}
+{"ID": "R9152:S000", "Quadruplet": [{"Aspect": "炸物", "Category": "FOOD#QUALITY", "Opinion": "很夠味", "VA": "6.96#6.89"}]}
 {"ID": "R6144:S000", "Quadruplet": []}
 {"ID": "R7609:S000", "Quadruplet": []}
 {"ID": "R7717:S000", "Quadruplet": []}
@@ -208,7 +208,7 @@
 {"ID": "R10019:S006", "Quadruplet": []}
 {"ID": "R8953:S000", "Quadruplet": []}
 {"ID": "R6091:S000", "Quadruplet": []}
-{"ID": "R7500:S000", "Quadruplet": []}
+{"ID": "R7500:S000", "Quadruplet": [{"Aspect": "咖哩雞", "Category": "FOOD#QUALITY", "Opinion": "好吃", "VA": "7.2#7.18"}]}
 {"ID": "R6080:S000", "Quadruplet": []}
 {"ID": "R8218:S000", "Quadruplet": []}
 {"ID": "R5867:S000", "Quadruplet": []}
@@ -227,7 +227,7 @@
 {"ID": "R7448:S000", "Quadruplet": []}
 {"ID": "R6134:S004", "Quadruplet": []}
 {"ID": "R5872:S000", "Quadruplet": []}
-{"ID": "R9606:S002", "Quadruplet": []}
+{"ID": "R9606:S002", "Quadruplet": [{"Aspect": "薯條", "Category": "FOOD#QUALITY", "Opinion": "很一般", "VA": "6.3#6.25"}]}
 {"ID": "R9885:S006", "Quadruplet": []}
 {"ID": "R9787:S013", "Quadruplet": []}
 {"ID": "R6045:S005", "Quadruplet": []}
@@ -235,7 +235,7 @@
 {"ID": "R5787:S000", "Quadruplet": []}
 {"ID": "R6823:S000", "Quadruplet": []}
 {"ID": "R5860:S000", "Quadruplet": []}
-{"ID": "R7572:S000", "Quadruplet": []}
+{"ID": "R7572:S000", "Quadruplet": [{"Aspect": "咖哩雞", "Category": "FOOD#QUALITY", "Opinion": "很好另外貓貓可愛", "VA": "6.72#6.47"}]}
 {"ID": "R9537:S001", "Quadruplet": []}
 {"ID": "R8067:S000", "Quadruplet": []}
 {"ID": "R6202:S000", "Quadruplet": []}
@@ -282,7 +282,7 @@
 {"ID": "R6136:S000", "Quadruplet": []}
 {"ID": "R6081:S000", "Quadruplet": []}
 {"ID": "R9856:S002", "Quadruplet": []}
-{"ID": "R10016:S002", "Quadruplet": []}
+{"ID": "R10016:S002", "Quadruplet": [{"Aspect": "叉燒", "Category": "FOOD#QUALITY", "Opinion": "是舒肥", "VA": "7.09#6.86"}, {"Aspect": "叉燒", "Category": "FOOD#QUALITY", "Opinion": "稍硬", "VA": "6.82#6.71"}]}
 {"ID": "R5749:S001", "Quadruplet": []}
 {"ID": "R5770:S000", "Quadruplet": []}
 {"ID": "R10558:S012", "Quadruplet": []}

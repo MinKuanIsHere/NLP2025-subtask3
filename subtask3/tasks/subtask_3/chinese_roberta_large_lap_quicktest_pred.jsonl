@@ -80,7 +80,7 @@
 {"ID": "6914038:S002", "Quadruplet": []}
 {"ID": "7063931:S002", "Quadruplet": []}
 {"ID": "7068377:S052", "Quadruplet": []}
-{"ID": "6812376:S026", "Quadruplet": []}
+{"ID": "6812376:S026", "Quadruplet": [{"Aspect": "價位", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.41#6.33"}]}
 {"ID": "7106682:S010", "Quadruplet": []}
 {"ID": "6867135:S073", "Quadruplet": []}
 {"ID": "6768439:S001", "Quadruplet": []}
@@ -161,7 +161,7 @@
 {"ID": "6761323:S021", "Quadruplet": []}
 {"ID": "7008316:S004", "Quadruplet": []}
 {"ID": "6976248:S003", "Quadruplet": []}
-{"ID": "6970249:S014", "Quadruplet": []}
+{"ID": "6970249:S014", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#PORTABILITY", "Opinion": "不錯", "VA": "6.47#6.36"}]}
 {"ID": "7029537:S008", "Quadruplet": []}
 {"ID": "6965011:S003", "Quadruplet": []}
 {"ID": "6973895:S034", "Quadruplet": []}
@@ -185,15 +185,15 @@
 {"ID": "6829147:S004", "Quadruplet": []}
 {"ID": "6759304:S024", "Quadruplet": []}
 {"ID": "6781640:S009", "Quadruplet": []}
-{"ID": "6932879:S022", "Quadruplet": []}
+{"ID": "6932879:S022", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "很高", "VA": "6.05#5.75"}]}
 {"ID": "6831457:S009", "Quadruplet": []}
 {"ID": "6932879:S044", "Quadruplet": []}
 {"ID": "6895216:S008", "Quadruplet": []}
-{"ID": "6769489:S117", "Quadruplet": []}
+{"ID": "6769489:S117", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.3#6.01"}]}
 {"ID": "6935931:S001", "Quadruplet": []}
 {"ID": "6916554:S002", "Quadruplet": []}
 {"ID": "6696296:S196", "Quadruplet": []}
-{"ID": "6918097:S113", "Quadruplet": []}
+{"ID": "6918097:S113", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.43#6.36"}, {"Aspect": "價格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.43#6.36"}]}
 {"ID": "6790340:S005", "Quadruplet": []}
 {"ID": "6933978:S007", "Quadruplet": []}
 {"ID": "6818071:S246", "Quadruplet": []}
@@ -223,7 +223,7 @@
 {"ID": "6783989:S001", "Quadruplet": []}
 {"ID": "6983090:S056", "Quadruplet": []}
 {"ID": "6858804:S002", "Quadruplet": []}
-{"ID": "6738095:S568", "Quadruplet": []}
+{"ID": "6738095:S568", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很高", "VA": "5.94#5.98"}]}
 {"ID": "6727320:S004", "Quadruplet": []}
 {"ID": "6985642:S035", "Quadruplet": []}
 {"ID": "6944839:S122", "Quadruplet": []}
@@ -237,14 +237,14 @@
 {"ID": "7072751:S011", "Quadruplet": []}
 {"ID": "6966145:S027", "Quadruplet": []}
 {"ID": "7100595:S055", "Quadruplet": []}
-{"ID": "6777250:S182", "Quadruplet": []}
+{"ID": "6777250:S182", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#PRICE", "Opinion": "不錯", "VA": "5.75#5.65"}, {"Aspect": "規格", "Category": "LAPTOP#PRICE", "Opinion": "可以接受", "VA": "5.77#5.71"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "不錯", "VA": "5.67#5.55"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "可以接受", "VA": "5.93#5.8"}]}
 {"ID": "6797250:S009", "Quadruplet": []}
 {"ID": "6929230:S174", "Quadruplet": []}
 {"ID": "6994867:S011", "Quadruplet": []}
 {"ID": "6935598:S120", "Quadruplet": []}
 {"ID": "6826849:S006", "Quadruplet": []}
 {"ID": "7041612:S006", "Quadruplet": []}
-{"ID": "6946915:S111", "Quadruplet": []}
+{"ID": "6946915:S111", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.69#6.53"}]}
 {"ID": "6952865:S031", "Quadruplet": []}
 {"ID": "6872758:S012", "Quadruplet": []}
 {"ID": "7093960:S061", "Quadruplet": []}
