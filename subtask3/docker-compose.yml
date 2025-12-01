@@ -18,6 +18,9 @@ services:
       - HF_HOME=/workspace/model/hf_cache
       - HF_HUB_ENABLE_HF_TRANSFER=1
       - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - OPENROUTER_SITE_URL=${OPENROUTER_SITE_URL}
+      - OPENROUTER_SITE_NAME=${OPENROUTER_SITE_NAME}
     volumes:
       - ./:/workspace
     ports:

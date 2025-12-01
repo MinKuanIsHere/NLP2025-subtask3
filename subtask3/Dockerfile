@@ -7,9 +7,16 @@ ENV HF_HOME=/root/.cache/huggingface \
     PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 COPY requirements.txt .
-RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/* && \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        git \
+        build-essential \
+        cmake \
+    && rm -rf /var/lib/apt/lists/* && \
     pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir \
+        faiss-cpu==1.8.0.post1 \
+        faiss-gpu-cu12==1.8.0.2
 
 COPY app.py .
 

@@ -1,0 +1,18 @@
+[2025-11-20 04:08:27,117][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/bert-base-multilingual-cased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+[2025-11-20 04:08:27,528][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+[2025-11-20 04:08:27,733][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2025-11-20 04:08:28,304][run_task2&3_trainer_multilingual.py][line:1127][INFO] initial optimizer......
+[2025-11-20 04:08:28,305][run_task2&3_trainer_multilingual.py][line:1145][INFO] New model and optimizer from epoch 1
+[2025-11-20 04:08:28,305][run_task2&3_trainer_multilingual.py][line:1154][INFO] begin training......
+[2025-11-20 04:08:29,500][run_task2&3_trainer_multilingual.py][line:1284][INFO] Epoch:[1/1]	 Batch:[10/40.0]	 Loss Sum:73.5555	forward Loss:12.1175;10.9312	 backward Loss:22.0093;10.7038	 Sentiment Loss:4.8155	Valence Loss:31.4169	 Arousal Loss:33.4736	
+[2025-11-20 04:08:30,486][run_task2&3_trainer_multilingual.py][line:1284][INFO] Epoch:[1/1]	 Batch:[20/40.0]	 Loss Sum:30.8593	forward Loss:4.5879;6.4721	 backward Loss:4.9399;5.8132	 Sentiment Loss:3.1142	Valence Loss:11.8501	 Arousal Loss:17.8102	
+[2025-11-20 04:08:31,473][run_task2&3_trainer_multilingual.py][line:1284][INFO] Epoch:[1/1]	 Batch:[30/40.0]	 Loss Sum:19.5886	forward Loss:4.0845;5.8656	 backward Loss:3.5807;4.9725	 Sentiment Loss:0.2302	Valence Loss:2.6328	 Arousal Loss:1.6421	
+[2025-11-20 04:08:32,458][run_task2&3_trainer_multilingual.py][line:1284][INFO] Epoch:[1/1]	 Batch:[40/40.0]	 Loss Sum:39.4527	forward Loss:5.1667;10.1258	 backward Loss:10.5426;5.9928	 Sentiment Loss:7.4262	Valence Loss:0.6884	 Arousal Loss:0.3045	
+[2025-11-20 04:08:32,458][run_task2&3_trainer_multilingual.py][line:1296][INFO] dev
+[2025-11-20 04:08:32,573][run_task2&3_trainer_multilingual.py][line:578][INFO] Triplet - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-20 04:08:32,573][run_task2&3_trainer_multilingual.py][line:583][INFO] Aspect - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-20 04:08:32,573][run_task2&3_trainer_multilingual.py][line:588][INFO] Opinion - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-20 04:08:32,573][run_task2&3_trainer_multilingual.py][line:594][INFO] Aspect-Category - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-20 04:08:32,573][run_task2&3_trainer_multilingual.py][line:602][INFO] Aspect-Opinion - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-20 04:08:32,573][run_task2&3_trainer_multilingual.py][line:1313][INFO] loading model......
+[2025-11-20 04:08:34,011][run_task2&3_trainer_multilingual.py][line:1316][INFO] inference......

@@ -1,0 +1,19 @@
+[2025-11-19 09:54:11,204][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/bert-base-multilingual-cased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+[2025-11-19 09:54:11,400][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+[2025-11-19 09:54:11,595][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2025-11-19 09:54:12,252][run_task2&3_trainer_multilingual.py][line:967][INFO] initial optimizer......
+[2025-11-19 09:54:12,252][run_task2&3_trainer_multilingual.py][line:985][INFO] New model and optimizer from epoch 1
+[2025-11-19 09:54:12,252][run_task2&3_trainer_multilingual.py][line:994][INFO] begin training......
+[2025-11-19 09:54:13,549][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[10/40.0]	 Loss Sum:43.0789	forward Loss:7.6102;10.0811	 backward Loss:6.7778;10.233	 Sentiment Loss:2.0351	Valence Loss:5.1915	 Arousal Loss:26.5165	
+[2025-11-19 09:54:14,654][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[20/40.0]	 Loss Sum:32.2938	forward Loss:6.3228;8.8515	 backward Loss:4.4092;6.659	 Sentiment Loss:0.5156	Valence Loss:17.0212	 Arousal Loss:10.6577	
+[2025-11-19 09:54:15,754][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[30/40.0]	 Loss Sum:21.9882	forward Loss:4.1137;6.2203	 backward Loss:4.4715;5.473	 Sentiment Loss:0.3025	Valence Loss:4.2487	 Arousal Loss:2.7868	
+[2025-11-19 09:54:16,862][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[40/40.0]	 Loss Sum:24.8515	forward Loss:4.9884;5.8852	 backward Loss:4.5724;6.142	 Sentiment Loss:3.1621	Valence Loss:0.4501	 Arousal Loss:0.057	
+[2025-11-19 09:54:16,862][run_task2&3_trainer_multilingual.py][line:1136][INFO] dev
+[2025-11-19 09:54:16,984][run_task2&3_trainer_multilingual.py][line:470][INFO] Triplet - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-19 09:54:16,984][run_task2&3_trainer_multilingual.py][line:475][INFO] Aspect - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-19 09:54:16,984][run_task2&3_trainer_multilingual.py][line:480][INFO] Opinion - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-19 09:54:16,984][run_task2&3_trainer_multilingual.py][line:486][INFO] Aspect-Category - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-19 09:54:16,984][run_task2&3_trainer_multilingual.py][line:494][INFO] Aspect-Opinion - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-19 09:54:16,985][run_task2&3_trainer_multilingual.py][line:1150][INFO] No checkpoint was saved during training; saving final epoch weights.
+[2025-11-19 09:54:18,446][run_task2&3_trainer_multilingual.py][line:1153][INFO] loading model......
+[2025-11-19 09:54:19,687][run_task2&3_trainer_multilingual.py][line:1156][INFO] inference......

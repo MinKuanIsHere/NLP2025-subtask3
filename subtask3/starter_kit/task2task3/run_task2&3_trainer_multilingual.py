@@ -5,6 +5,8 @@ import json
 import Utils
 import torch
 import random
+import sys
+from pathlib import Path
 from DimABSAModel import DimABSA
 from torch.nn import functional as F
 from transformers import BertTokenizer, AutoTokenizer
@@ -13,6 +15,20 @@ from torch.optim import AdamW
 
 from Utils import create_directory, ReviewDataset, generate_batches, InferenceReviewDataset, combine_lists, replace_using_dict
 from DataProcess import dataset_process, dataset_inference_process
+
+SCRIPT_PATH = Path(__file__).resolve()
+SUBTASK3_ROOT = SCRIPT_PATH.parents[2]
+if str(SUBTASK3_ROOT) not in sys.path:
+    sys.path.append(str(SUBTASK3_ROOT))
+DEFAULT_RAG_STORE_ROOT = SUBTASK3_ROOT / "rag" / "stores"
+try:
+    from src.rag.retriever import RetrievalService
+    from src.rag.context_formatter import format_neighbors_to_tokens
+except ModuleNotFoundError:
+    RetrievalService = None
+
+    def format_neighbors_to_tokens(*args, **kwargs):
+        return []
 
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
@@ -85,6 +101,11 @@ def parser_getting():
 
     parser.add_argument('--train_data', type=str, default="eng_restaurant_train_alltasks.jsonl")
     parser.add_argument('--infer_data', type=str, default="eng_restaurant_dev_task2.jsonl")
+    parser.add_argument('--use_rag', action='store_true', help='Append retrieval context to inputs.')
+    parser.add_argument('--rag_store_root', type=str, default=None, help='Root directory containing rag/stores/<domain>.')
+    parser.add_argument('--rag_top_k', type=int, default=3)
+    parser.add_argument('--rag_examples', type=int, default=2)
+    parser.add_argument('--rag_max_tokens', type=int, default=128)
 
     parser.add_argument('--mode', type=str, default="train", choices=["train", "evaluate", "inference"])
     parser.add_argument('--max_len', type=str, default="max_len", choices=["max_len"])
@@ -108,6 +129,8 @@ def parser_getting():
     parser.add_argument('--beta', type=float, default=1)
 
     args = parser.parse_args()
+    if args.rag_store_root is None:
+        args.rag_store_root = str(DEFAULT_RAG_STORE_ROOT)
     return args
 
 
@@ -1151,7 +1174,7 @@ def train(args, train_total_data, test_total_data, inference_dataset, category_m
     logger.removeHandler(sh)
 
 
-def load_inference_data(args):
+def load_inference_data(args, retriever=None):
     tokenizer = AutoTokenizer.from_pretrained(args.bert_model_type)
     inference_datasets = []
 
@@ -1163,7 +1186,13 @@ def load_inference_data(args):
         for line in f:
             data = json.loads(line)
             data_id = data['ID']
-            text = data['Text'].lower()
+            text = data['Text']
+            if retriever is not None and args.use_rag:
+                result = retriever.retrieve(text=text, top_k=args.rag_top_k, exclude_id=data_id)
+                rag_tokens = format_neighbors_to_tokens(result["neighbors"], args.rag_examples, args.rag_max_tokens)
+                if rag_tokens:
+                    text = f"{text} {' '.join(rag_tokens)}"
+            text = text.lower()
             text = " ".join(tokenizer.tokenize(text))
             inference_datasets.append((data_id, text))
 
@@ -1172,9 +1201,15 @@ def load_inference_data(args):
     return inference_dataset
 
 
-def load_train_data_multilingual(args):
+def load_train_data_multilingual(args, retriever=None):
     from transformers import AutoTokenizer
     tokenizer = AutoTokenizer.from_pretrained(args.bert_model_type)
+    def build_rag_context(raw_text, record_id):
+        if retriever is None or not args.use_rag:
+            return []
+        result = retriever.retrieve(text=raw_text, top_k=args.rag_top_k, exclude_id=record_id)
+        return format_neighbors_to_tokens(result["neighbors"], args.rag_examples, args.rag_max_tokens)
+
     def find_word_indices(text, phrase):
         words = tokenizer.tokenize(text)[:256]
         if phrase == "NULL" or not phrase:
@@ -1212,8 +1247,10 @@ def load_train_data_multilingual(args):
 
     for i, data in enumerate(all_data):
         text = data['Text']
+        rag_tokens = build_rag_context(text, data.get('ID'))
         quadruplets = data['Quadruplet']
         quintuplets = []
+        tokenized_sentence = None
         for quad in quadruplets:
             if 'Category' in quad and args.task == 3:
                 category = quad['Category'].upper()
@@ -1239,9 +1276,13 @@ def load_train_data_multilingual(args):
                 arousal
             )
             quintuplets.append(quint)
+            tokenized_sentence = new_text
 
         quint_str = ", ".join([str(q) for q in quintuplets])
-        output_line = f"{new_text}####[{quint_str}]"
+        base_line = tokenized_sentence if tokenized_sentence else ""
+        if rag_tokens:
+            base_line = f"{base_line} {' '.join(rag_tokens)}".strip()
+        output_line = f"{base_line}####[{quint_str}]"
         if i < train_count:
             dataset_type = 'train'
         else:
@@ -1255,6 +1296,14 @@ def load_train_data_multilingual(args):
 if __name__ == '__main__':
     args = parser_getting()
     create_directory(args)
-    train_dataset, test_dataset, category_dict = load_train_data_multilingual(args)
-    inference_dataset = load_inference_data(args) # ID_LIST, TEXT_LIST, QA_LIST
+    retriever = None
+    if getattr(args, "use_rag", False):
+        if RetrievalService is None:
+            raise RuntimeError("RAG modules are not available in this environment.")
+        store_dir = Path(args.rag_store_root) / args.domain
+        if not store_dir.exists():
+            raise FileNotFoundError(f"RAG store not found at {store_dir}")
+        retriever = RetrievalService(str(store_dir))
+    train_dataset, test_dataset, category_dict = load_train_data_multilingual(args, retriever)
+    inference_dataset = load_inference_data(args, retriever) # ID_LIST, TEXT_LIST, QA_LIST
     train(args, train_dataset, test_dataset, inference_dataset, category_dict)

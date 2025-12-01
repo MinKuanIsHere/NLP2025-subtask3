@@ -1,0 +1,28 @@
+[2025-11-18 03:26:40,373][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2025-11-18 03:26:40,378][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hfl/chinese-roberta-wwm-ext-large/a25cc9e05974bd9687e528edd516f2cfdb3f5db9/tokenizer_config.json "HTTP/1.1 200 OK"
+[2025-11-18 03:26:40,580][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2025-11-18 03:26:40,854][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large "HTTP/1.1 200 OK"
+[2025-11-18 03:26:41,082][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large/commits/main "HTTP/1.1 200 OK"
+[2025-11-18 03:26:41,289][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large/discussions?p=0 "HTTP/1.1 403 Forbidden"
+[2025-11-18 03:26:41,487][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2025-11-18 03:26:41,492][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hfl/chinese-roberta-wwm-ext-large/a25cc9e05974bd9687e528edd516f2cfdb3f5db9/config.json "HTTP/1.1 200 OK"
+[2025-11-18 03:26:41,693][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+[2025-11-18 03:26:41,888][_client.py][line:1025][INFO] HTTP Request: HEAD https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2025-11-18 03:26:42,097][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large "HTTP/1.1 200 OK"
+[2025-11-18 03:26:42,350][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large/commits/main "HTTP/1.1 200 OK"
+[2025-11-18 03:26:42,566][_client.py][line:1025][INFO] HTTP Request: GET https://huggingface.co/api/models/hfl/chinese-roberta-wwm-ext-large/discussions?p=0 "HTTP/1.1 403 Forbidden"
+[2025-11-18 03:26:43,017][run_task2&3_trainer_multilingual.py][line:967][INFO] initial optimizer......
+[2025-11-18 03:26:43,018][run_task2&3_trainer_multilingual.py][line:985][INFO] New model and optimizer from epoch 1
+[2025-11-18 03:26:43,018][run_task2&3_trainer_multilingual.py][line:994][INFO] begin training......
+[2025-11-18 03:26:47,167][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[10/40.0]	 Loss Sum:77.1698	forward Loss:19.8766;15.0476	 backward Loss:24.2077;12.8065	 Sentiment Loss:3.1422	Valence Loss:4.5568	 Arousal Loss:5.8888	
+[2025-11-18 03:26:51,222][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[20/40.0]	 Loss Sum:33.0119	forward Loss:4.262;7.179	 backward Loss:4.3116;12.49	 Sentiment Loss:1.9875	Valence Loss:10.8814	 Arousal Loss:3.0277	
+[2025-11-18 03:26:55,258][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[30/40.0]	 Loss Sum:59.6826	forward Loss:10.2736;16.2681	 backward Loss:21.642;8.4467	 Sentiment Loss:1.6725	Valence Loss:4.0126	 Arousal Loss:2.8863	
+[2025-11-18 03:26:59,302][run_task2&3_trainer_multilingual.py][line:1124][INFO] Epoch:[1/1]	 Batch:[40/40.0]	 Loss Sum:57.7769	forward Loss:11.2286;13.2459	 backward Loss:18.681;10.7937	 Sentiment Loss:3.4455	Valence Loss:0.4631	 Arousal Loss:1.4479	
+[2025-11-18 03:26:59,302][run_task2&3_trainer_multilingual.py][line:1136][INFO] dev
+[2025-11-18 03:26:59,695][run_task2&3_trainer_multilingual.py][line:470][INFO] Triplet - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-18 03:26:59,695][run_task2&3_trainer_multilingual.py][line:475][INFO] Aspect - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-18 03:26:59,695][run_task2&3_trainer_multilingual.py][line:480][INFO] Opinion - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-18 03:26:59,695][run_task2&3_trainer_multilingual.py][line:486][INFO] Aspect-Category - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-18 03:26:59,695][run_task2&3_trainer_multilingual.py][line:494][INFO] Aspect-Opinion - Precision: 0.0	Recall: 0.0	F1: 0.0
+[2025-11-18 03:26:59,696][run_task2&3_trainer_multilingual.py][line:1153][INFO] loading model......
+[2025-11-18 03:27:02,093][run_task2&3_trainer_multilingual.py][line:1156][INFO] inference......
