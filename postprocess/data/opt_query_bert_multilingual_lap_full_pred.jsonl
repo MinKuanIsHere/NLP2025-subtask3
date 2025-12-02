@@ -1,0 +1,300 @@
+{"ID": "6724235:S003", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "比i7高一截", "VA": "4.7#5.51"}]}
+{"ID": "6918097:S012", "Quadruplet": [{"Aspect": "硬體規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "相當強悍", "VA": "5.64#5.89"}, {"Aspect": "風扇噪音", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "比較大", "VA": "4.73#5.41"}]}
+{"ID": "6776730:S362", "Quadruplet": []}
+{"ID": "7109657:S059", "Quadruplet": [{"Aspect": "筆電外觀設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的一代", "VA": "6.5#5.93"}]}
+{"ID": "6916478:S005", "Quadruplet": [{"Aspect": "設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很薄", "VA": "6.1#5.84"}]}
+{"ID": "7010970:S045", "Quadruplet": [{"Aspect": "amd筆電", "Category": "LAPTOP#GENERAL", "Opinion": "給推", "VA": "5.8#5.73"}]}
+{"ID": "6875997:S004", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PORTABILITY", "Opinion": "真的蠻推", "VA": "6.31#6.14"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "真的蠻推", "VA": "5.98#5.83"}, {"Aspect": "續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "高", "VA": "5.91#5.58"}]}
+{"ID": "6815708:S005", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "沒什麼意義", "VA": "5.65#5.68"}]}
+{"ID": "6730003:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "非常不錯", "VA": "6.05#5.95"}, {"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "比較好一些", "VA": "5.73#5.78"}, {"Aspect": "12代", "Category": "LAPTOP#GENERAL", "Opinion": "比較好一些", "VA": "5.62#5.81"}]}
+{"ID": "6782540:S323", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很好看", "VA": "7.31#6.52"}]}
+{"ID": "6788726:S088", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "非常精美", "VA": "5.51#6.17"}]}
+{"ID": "6957364:S023", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "那麼重", "VA": "5.98#6.03"}]}
+{"ID": "6864259:S015", "Quadruplet": []}
+{"ID": "6837523:S027", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "應該會更好", "VA": "6.04#5.69"}, {"Aspect": "筆電牌子", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較新", "VA": "5.63#5.77"}]}
+{"ID": "6770323:S001", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "跟你這台差不多", "VA": "4.83#5.71"}, {"Aspect": "cpu效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "好不少", "VA": "5.48#5.9"}, {"Aspect": "顯卡效能", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "好不少", "VA": "5.34#5.76"}]}
+{"ID": "7076622:S015", "Quadruplet": [{"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "沒辦法改變", "VA": "5.19#5.28"}]}
+{"ID": "6840326:S040", "Quadruplet": [{"Aspect": "升降鍵盤", "Category": "KEYBOARD#DESIGN_FEATURES", "Opinion": "不敢用力敲", "VA": "5.1#5.81"}]}
+{"ID": "7014871:S009", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "全開還不掉", "VA": "6.05#6.0"}]}
+{"ID": "6930482:S007", "Quadruplet": [{"Aspect": "型號", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很齊全", "VA": "6.17#6.09"}, {"Aspect": "npu加速", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "比較適合", "VA": "5.81#6.01"}]}
+{"ID": "6878187:S009", "Quadruplet": [{"Aspect": "硬體", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "可惜", "VA": "5.46#5.77"}, {"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "還要加油", "VA": "5.34#5.72"}]}
+{"ID": "6985642:S052", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "太可惜", "VA": "5.86#5.86"}]}
+{"ID": "6913340:S017", "Quadruplet": [{"Aspect": "筆電規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很棒", "VA": "6.85#6.41"}]}
+{"ID": "6849897:S012", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "一直都不錯", "VA": "5.96#5.47"}]}
+{"ID": "6752254:S112", "Quadruplet": [{"Aspect": "筆電oled系列畫質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的沒話說", "VA": "6.49#6.22"}]}
+{"ID": "6965152:S002", "Quadruplet": []}
+{"ID": "6779155:S006", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PORTABILITY", "Opinion": "輕薄", "VA": "5.65#5.37"}, {"Aspect": "null", "Category": "LAPTOP#PORTABILITY", "Opinion": "很夠用", "VA": "6.13#6.05"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "輕薄", "VA": "5.52#5.29"}]}
+{"ID": "6771600:S009", "Quadruplet": []}
+{"ID": "7074293:S023", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "喜歡", "VA": "6.87#6.12"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "夠用", "VA": "6.45#5.97"}]}
+{"ID": "6745361:S308", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "最頂", "VA": "7.02#6.41"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "最頂", "VA": "6.52#6.16"}]}
+{"ID": "6940405:S103", "Quadruplet": [{"Aspect": "設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "更有特色", "VA": "6.35#6.07"}]}
+{"ID": "6754382:S007", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "有點鬆", "VA": "5.55#5.75"}, {"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "太有特色", "VA": "5.32#5.83"}, {"Aspect": "轉軸外側蓋子", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "有點鬆", "VA": "4.94#5.48"}]}
+{"ID": "6920254:S099", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "有吸引力", "VA": "5.6#5.96"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "有吸引力", "VA": "5.02#5.72"}]}
+{"ID": "6913340:S044", "Quadruplet": []}
+{"ID": "6838135:S047", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "樸實無華", "VA": "5.22#6.0"}]}
+{"ID": "6912677:S018", "Quadruplet": [{"Aspect": "筆電設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很棒", "VA": "6.56#6.31"}]}
+{"ID": "6831083:S048", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.27#5.98"}]}
+{"ID": "7107751:S003", "Quadruplet": []}
+{"ID": "6833601:S055", "Quadruplet": [{"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "最有吸引力", "VA": "6.42#6.02"}, {"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "精簡", "VA": "6.42#5.92"}, {"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很有感", "VA": "6.62#6.14"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "算是頂天", "VA": "5.65#5.93"}, {"Aspect": "itx", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較便宜", "VA": "6.15#6.08"}, {"Aspect": "性能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "好", "VA": "6.62#6.04"}]}
+{"ID": "6921513:S026", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "給過，漂亮", "VA": "6.63#6.07"}]}
+{"ID": "6725019:S009", "Quadruplet": [{"Aspect": "1.17kg的16吋筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "確實夠輕", "VA": "5.84#6.12"}, {"Aspect": "喇叭音質", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "能夠有高水準", "VA": "6.0#6.0"}]}
+{"ID": "6962681:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "推薦", "VA": "6.46#5.93"}]}
+{"ID": "7075208:S012", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不會很重", "VA": "5.69#5.72"}, {"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "很方便", "VA": "6.33#5.81"}, {"Aspect": "13寸螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "真的會挺小", "VA": "5.36#5.76"}]}
+{"ID": "7042893:S005", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "看過實機還不錯", "VA": "5.45#5.73"}, {"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不錯", "VA": "5.59#5.66"}]}
+{"ID": "6793773:S009", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "的確滿強大", "VA": "5.78#5.56"}, {"Aspect": "4080", "Category": "LAPTOP#PRICE", "Opinion": "的確滿強大", "VA": "5.9#5.99"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "偏高", "VA": "4.98#5.53"}]}
+{"ID": "7105703:S121", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "有進步", "VA": "6.22#5.97"}]}
+{"ID": "6901945:S010", "Quadruplet": [{"Aspect": "rog的設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "總是不令人失望", "VA": "5.5#5.79"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "通常都令人失望", "VA": "5.23#6.0"}]}
+{"ID": "6738095:S733", "Quadruplet": []}
+{"ID": "7076622:S001", "Quadruplet": [{"Aspect": "tufa14", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很輕薄", "VA": "6.51#6.23"}, {"Aspect": "攜帶", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很方便", "VA": "6.36#5.98"}, {"Aspect": "銀白色", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很好看", "VA": "6.05#6.2"}]}
+{"ID": "6734994:S019", "Quadruplet": []}
+{"ID": "7094394:S027", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "很頂級", "VA": "7.1#6.49"}, {"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很古", "VA": "6.83#6.0"}]}
+{"ID": "7119334:S001", "Quadruplet": [{"Aspect": "效率", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "快很多", "VA": "6.06#5.88"}]}
+{"ID": "7010600:S035", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "安靜到不可思議", "VA": "5.68#5.73"}]}
+{"ID": "6788726:S026", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "這麼美", "VA": "6.51#6.27"}, {"Aspect": "筆電", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "有那麼炫麗", "VA": "6.5#6.14"}]}
+{"ID": "6878187:S044", "Quadruplet": [{"Aspect": "螢幕的解析度", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "太低", "VA": "5.43#5.86"}]}
+{"ID": "6925945:S011", "Quadruplet": [{"Aspect": "null", "Category": "FANS_COOLING#GENERAL", "Opinion": "相對比較穩定", "VA": "6.06#6.1"}, {"Aspect": "散熱", "Category": "FANS_COOLING#GENERAL", "Opinion": "相對比較穩定", "VA": "5.81#5.81"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "相對好得多", "VA": "6.13#5.9"}]}
+{"ID": "7009529:S010", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "比較好", "VA": "6.88#6.39"}]}
+{"ID": "6760124:S578", "Quadruplet": [{"Aspect": "處理器", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "不錯", "VA": "6.12#5.79"}, {"Aspect": "顯卡", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "比較可惜", "VA": "5.72#5.68"}]}
+{"ID": "6699348:S695", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "好讚", "VA": "6.62#6.11"}]}
+{"ID": "6935598:S458", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "真的棒", "VA": "6.39#6.15"}, {"Aspect": "g14", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的棒", "VA": "6.37#6.22"}]}
+{"ID": "6810173:S095", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "蠻吸引人", "VA": "6.38#6.04"}]}
+{"ID": "6812376:S603", "Quadruplet": [{"Aspect": "聯想的筆電", "Category": "LAPTOP#GENERAL", "Opinion": "很有競爭力", "VA": "6.0#6.2"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "不錯", "VA": "4.93#5.58"}]}
+{"ID": "7024643:S003", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "好便宜", "VA": "6.76#6.27"}, {"Aspect": "家用筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "看起來好大", "VA": "6.0#6.21"}, {"Aspect": "17寸", "Category": "LAPTOP#PORTABILITY", "Opinion": "看起來好大", "VA": "6.09#6.3"}]}
+{"ID": "7017016:S006", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "很好", "VA": "6.24#6.05"}]}
+{"ID": "6952865:S263", "Quadruplet": [{"Aspect": "機種的顏色", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "超喜歡", "VA": "6.88#6.14"}]}
+{"ID": "6801138:S030", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "能接近打平", "VA": "6.09#5.87"}, {"Aspect": "null", "Category": "LAPTOP#PRICE", "Opinion": "我看不出還有什麼大問題", "VA": "5.38#6.07"}]}
+{"ID": "6860419:S007", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "高些", "VA": "6.82#6.3"}]}
+{"ID": "6750910:S016", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不用擔心", "VA": "5.89#5.57"}, {"Aspect": "tuf擴充性", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不用擔心", "VA": "5.82#5.71"}]}
+{"ID": "6952865:S340", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的很喜歡", "VA": "7.12#6.39"}, {"Aspect": "華碩品質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不敢恭維", "VA": "6.56#6.06"}]}
+{"ID": "6865763:S011", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "還嫌太重", "VA": "5.91#5.86"}]}
+{"ID": "6990516:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "沒大差異", "VA": "5.82#5.61"}, {"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "強一點點", "VA": "6.26#5.82"}]}
+{"ID": "6941101:S005", "Quadruplet": [{"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "比較大", "VA": "5.89#5.82"}]}
+{"ID": "7053987:S002", "Quadruplet": [{"Aspect": "硬漢風格外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很紮實", "VA": "7.11#6.52"}]}
+{"ID": "6897243:S002", "Quadruplet": [{"Aspect": "瀏海螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "不愛", "VA": "5.15#5.58"}]}
+{"ID": "6743810:S016", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "著實令人滿意", "VA": "6.61#6.2"}, {"Aspect": "整機性能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "著實令人滿意", "VA": "6.12#6.05"}]}
+{"ID": "7069320:S054", "Quadruplet": [{"Aspect": "其他牌的筆電", "Category": "LAPTOP#GENERAL", "Opinion": "做得不比", "VA": "5.26#5.7"}, {"Aspect": "asuslgacer", "Category": "LAPTOP#GENERAL", "Opinion": "不是等閒之輩", "VA": "4.9#5.32"}]}
+{"ID": "6711321:S010", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "放心買下去", "VA": "5.81#5.71"}]}
+{"ID": "6985470:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較推薦", "VA": "6.58#6.17"}]}
+{"ID": "6998627:S005", "Quadruplet": []}
+{"ID": "6999003:S002", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "大概率黑屏", "VA": "5.58#5.88"}]}
+{"ID": "6914038:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的超級美", "VA": "6.54#6.29"}]}
+{"ID": "7063931:S002", "Quadruplet": []}
+{"ID": "7068377:S052", "Quadruplet": [{"Aspect": "二合一的筆電設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "蠻厲害", "VA": "6.07#5.84"}]}
+{"ID": "6812376:S026", "Quadruplet": [{"Aspect": "md", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "有誠意就是要推", "VA": "6.17#6.09"}, {"Aspect": "筆電規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "還不錯", "VA": "5.67#5.93"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "讓人卻步", "VA": "5.17#5.83"}]}
+{"ID": "7106682:S010", "Quadruplet": [{"Aspect": "電競筆電", "Category": "LAPTOP#GENERAL", "Opinion": "超出水準", "VA": "5.84#6.0"}]}
+{"ID": "6867135:S073", "Quadruplet": []}
+{"ID": "6768439:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好蠻多", "VA": "6.06#5.56"}]}
+{"ID": "6908008:S082", "Quadruplet": [{"Aspect": "宏碁筆電設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "蠻輕巧", "VA": "6.35#6.27"}, {"Aspect": "穩定度", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很夠", "VA": "6.72#6.18"}, {"Aspect": "耐用度", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "很夠", "VA": "6.7#6.14"}]}
+{"ID": "6952865:S109", "Quadruplet": []}
+{"ID": "6785645:S005", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PRICE", "Opinion": "我覺得ok", "VA": "5.31#5.62"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "挺夠用", "VA": "6.51#6.12"}]}
+{"ID": "6935598:S406", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很有誠意", "VA": "6.46#6.36"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很有誠意", "VA": "6.04#6.15"}, {"Aspect": "售價", "Category": "LAPTOP#PRICE", "Opinion": "很有誠意", "VA": "5.56#5.92"}]}
+{"ID": "6711431:S009", "Quadruplet": [{"Aspect": "折疊筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "不多", "VA": "5.21#5.45"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "還有點貴", "VA": "4.66#5.63"}]}
+{"ID": "6968089:S004", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "蠻夠用", "VA": "6.6#6.17"}, {"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "比較好", "VA": "6.45#6.17"}, {"Aspect": "螢幕用料", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "比較好", "VA": "5.75#5.84"}]}
+{"ID": "6965011:S002", "Quadruplet": [{"Aspect": "宏碁的維修", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較方便", "VA": "6.1#6.29"}]}
+{"ID": "6799488:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "差異很大", "VA": "5.43#5.6"}]}
+{"ID": "6878020:S003", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的是很好看", "VA": "6.58#6.12"}, {"Aspect": "m16的外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的是很好看", "VA": "6.13#6.01"}, {"Aspect": "售價", "Category": "LAPTOP#PRICE", "Opinion": "真的挺高", "VA": "5.48#5.97"}]}
+{"ID": "6710233:S004", "Quadruplet": [{"Aspect": "品質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很穩定", "VA": "6.65#5.93"}, {"Aspect": "電池續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "很持久", "VA": "5.46#5.68"}]}
+{"ID": "6948814:S003", "Quadruplet": [{"Aspect": "觸控板的多媒體觸控", "Category": "HARDWARE#DESIGN_FEATURES", "Opinion": "很實用", "VA": "5.58#5.89"}, {"Aspect": "電池續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "輕度使用下，6個小時沒問題", "VA": "4.85#5.44"}]}
+{"ID": "7027819:S053", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "滿頂", "VA": "6.78#6.29"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "輕薄", "VA": "6.61#6.12"}]}
+{"ID": "6951520:S004", "Quadruplet": [{"Aspect": "組件規格效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "頂天", "VA": "5.63#5.8"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "頂天", "VA": "5.26#5.77"}]}
+{"ID": "6837781:S007", "Quadruplet": [{"Aspect": "散熱座", "Category": "FANS_COOLING#GENERAL", "Opinion": "比較好", "VA": "5.33#5.66"}]}
+{"ID": "7105703:S020", "Quadruplet": [{"Aspect": "thinkpad", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很優", "VA": "6.58#6.05"}, {"Aspect": "md", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很優", "VA": "6.53#6.05"}]}
+{"ID": "6956096:S004", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "較多", "VA": "6.11#5.89"}, {"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較久", "VA": "6.19#6.02"}, {"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "較多", "VA": "5.94#5.83"}, {"Aspect": "處理器規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較久", "VA": "5.7#5.74"}]}
+{"ID": "6749219:S433", "Quadruplet": [{"Aspect": "新筆電", "Category": "LAPTOP#GENERAL", "Opinion": "真高貴", "VA": "6.13#6.01"}]}
+{"ID": "7061807:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "就好", "VA": "6.71#6.16"}, {"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "比較符合你需求", "VA": "6.23#5.92"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "比較符合你需求", "VA": "6.27#5.97"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "可以再多看看", "VA": "5.09#5.73"}]}
+{"ID": "7072999:S012", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PRICE", "Opinion": "最優", "VA": "5.74#5.96"}]}
+{"ID": "6952865:S042", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.41#5.88"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "負擔的起", "VA": "4.99#5.93"}]}
+{"ID": "6739608:S001", "Quadruplet": []}
+{"ID": "7095346:S057", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.31#5.5"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.07#5.48"}, {"Aspect": "獨顯", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "更棒", "VA": "6.41#6.32"}]}
+{"ID": "6864966:S022", "Quadruplet": [{"Aspect": "白色機身的顏值", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "沒話說", "VA": "5.66#5.85"}]}
+{"ID": "6787764:S001", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "超好", "VA": "6.34#6.26"}, {"Aspect": "外接界面", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很方便", "VA": "6.15#6.12"}, {"Aspect": "觸控電繪", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "方便", "VA": "6.0#6.02"}]}
+{"ID": "6960644:S047", "Quadruplet": [{"Aspect": "硬體規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "太弱", "VA": "5.49#5.92"}]}
+{"ID": "6912677:S002", "Quadruplet": [{"Aspect": "顏質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "算兼具", "VA": "6.38#5.72"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "算兼具", "VA": "6.39#5.87"}]}
+{"ID": "7052705:S012", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PORTABILITY", "Opinion": "超薄", "VA": "6.46#6.21"}, {"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "很夠用", "VA": "5.76#5.75"}, {"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "應該很夠用", "VA": "5.54#5.7"}]}
+{"ID": "7105703:S464", "Quadruplet": [{"Aspect": "鍵盤表面", "Category": "KEYBOARD#DESIGN_FEATURES", "Opinion": "容易磨損", "VA": "5.14#5.8"}]}
+{"ID": "7096305:S080", "Quadruplet": [{"Aspect": "內顯", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "真的太猛", "VA": "5.72#5.96"}, {"Aspect": "amd", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "真的太猛", "VA": "6.13#6.22"}]}
+{"ID": "6918097:S221", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很厲害", "VA": "6.97#6.44"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "很厲害", "VA": "6.91#6.33"}]}
+{"ID": "6907113:S008", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "不錯", "VA": "5.79#5.73"}, {"Aspect": "顯色", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "不錯", "VA": "5.86#5.8"}]}
+{"ID": "7037163:S008", "Quadruplet": [{"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "要長", "VA": "5.7#5.6"}]}
+{"ID": "7074781:S016", "Quadruplet": [{"Aspect": "14吋的筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "真的是超級輕薄", "VA": "5.78#6.14"}, {"Aspect": "性能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "沒有[UNK]割太多", "VA": "5.86#5.79"}]}
+{"ID": "6955371:S005", "Quadruplet": [{"Aspect": "工作站筆電", "Category": "LAPTOP#GENERAL", "Opinion": "用起來比較耐操", "VA": "5.24#5.74"}]}
+{"ID": "6699348:S620", "Quadruplet": [{"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "輕薄", "VA": "6.13#5.5"}, {"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "看起來就是舒服", "VA": "6.05#5.76"}, {"Aspect": "輕薄的外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "看起來就是舒服", "VA": "6.33#5.98"}]}
+{"ID": "6801894:S004", "Quadruplet": [{"Aspect": "記憶體", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "比較多", "VA": "4.99#5.48"}, {"Aspect": "記憶體", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "比較好", "VA": "5.38#5.67"}]}
+{"ID": "7100595:S077", "Quadruplet": [{"Aspect": "性能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "強悍", "VA": "7.05#6.37"}, {"Aspect": "性能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "我好喜歡", "VA": "7.12#6.39"}, {"Aspect": "razerblade16真的很有雷蛇的設計風格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的很有雷蛇", "VA": "6.11#5.97"}]}
+{"ID": "7011701:S005", "Quadruplet": []}
+{"ID": "6935598:S172", "Quadruplet": []}
+{"ID": "7023288:S028", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "重", "VA": "6.03#5.49"}, {"Aspect": "待機", "Category": "LAPTOP#PORTABILITY", "Opinion": "短", "VA": "5.76#5.43"}, {"Aspect": "風扇噪音", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "大", "VA": "5.1#5.2"}]}
+{"ID": "6942681:S001", "Quadruplet": [{"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "還算堪用", "VA": "5.76#5.71"}]}
+{"ID": "6782540:S709", "Quadruplet": []}
+{"ID": "6772612:S003", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "相對比較耗電", "VA": "5.84#5.89"}, {"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不會太耗電", "VA": "5.38#5.59"}, {"Aspect": "h版處理器", "Category": "CPU#OPERATION_PERFORMANCE", "Opinion": "相對比較耗電", "VA": "5.51#5.69"}]}
+{"ID": "6985470:S005", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "能滿足你的需求", "VA": "5.45#5.66"}]}
+{"ID": "6716431:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "比較大", "VA": "5.66#5.75"}, {"Aspect": "msi記憶體", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "比較大", "VA": "5.01#5.46"}]}
+{"ID": "6850921:S021", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "很好", "VA": "6.31#6.13"}]}
+{"ID": "6959938:S005", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "吃資源怪獸", "VA": "4.64#5.27"}]}
+{"ID": "7077626:S002", "Quadruplet": [{"Aspect": "材質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "悲劇起泡斷裂", "VA": "5.1#5.47"}]}
+{"ID": "6915518:S006", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "較大", "VA": "6.48#6.09"}, {"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "較大", "VA": "6.12#5.91"}, {"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "比較爽", "VA": "6.3#6.11"}]}
+{"ID": "6956965:S033", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "算是很棒", "VA": "6.08#6.15"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "算不錯", "VA": "5.04#5.74"}]}
+{"ID": "6698962:S003", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "不錯", "VA": "6.17#5.96"}]}
+{"ID": "7012416:S048", "Quadruplet": []}
+{"ID": "6765997:S009", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "很大", "VA": "6.09#5.87"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "就算蠻合適", "VA": "5.28#5.79"}]}
+{"ID": "6788726:S511", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "很美", "VA": "6.95#6.33"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "真的很信仰", "VA": "5.89#6.05"}]}
+{"ID": "6825044:S022", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的超好看", "VA": "6.31#6.34"}, {"Aspect": "白色規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的超好看", "VA": "6.07#6.02"}]}
+{"ID": "6949617:S211", "Quadruplet": []}
+{"ID": "6905790:S001", "Quadruplet": [{"Aspect": "筆電規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很夠", "VA": "5.92#6.13"}, {"Aspect": "cp值", "Category": "LAPTOP#PRICE", "Opinion": "算很高", "VA": "5.92#6.32"}, {"Aspect": "原裝", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "夠用", "VA": "6.09#6.1"}]}
+{"ID": "6906568:S004", "Quadruplet": [{"Aspect": "保固", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不是很完美", "VA": "5.43#5.84"}]}
+{"ID": "6741256:S004", "Quadruplet": [{"Aspect": "風扇", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "倒是還好", "VA": "5.84#5.79"}, {"Aspect": "銅管", "Category": "LAPTOP#PORTABILITY", "Opinion": "更重要", "VA": "5.85#5.81"}]}
+{"ID": "6701483:S002", "Quadruplet": []}
+{"ID": "6894354:S007", "Quadruplet": [{"Aspect": "電競筆電", "Category": "LAPTOP#GENERAL", "Opinion": "很便宜", "VA": "5.69#5.95"}]}
+{"ID": "6745971:S125", "Quadruplet": [{"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "太重", "VA": "5.8#5.62"}]}
+{"ID": "6763119:S333", "Quadruplet": [{"Aspect": "筆電效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "真是越來越好", "VA": "6.44#6.22"}]}
+{"ID": "7077603:S002", "Quadruplet": [{"Aspect": "電商", "Category": "LAPTOP#PRICE", "Opinion": "優惠", "VA": "5.72#5.56"}]}
+{"ID": "6773142:S004", "Quadruplet": [{"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "真的適合上班用", "VA": "6.32#6.1"}, {"Aspect": "外形", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的適合上班用", "VA": "6.53#6.12"}]}
+{"ID": "7041316:S004", "Quadruplet": [{"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "很差", "VA": "5.43#5.66"}]}
+{"ID": "6954874:S008", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "不好", "VA": "5.92#5.83"}]}
+{"ID": "6949617:S415", "Quadruplet": [{"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "超過了一些", "VA": "5.73#5.54"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "不方便帶", "VA": "5.91#5.55"}, {"Aspect": "尺寸", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "超過了一些", "VA": "5.66#5.47"}]}
+{"ID": "6946311:S232", "Quadruplet": [{"Aspect": "造型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的是我的菜", "VA": "6.38#6.3"}, {"Aspect": "螢幕解析度", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "太入門", "VA": "5.79#5.93"}]}
+{"ID": "6725019:S122", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "好棒", "VA": "6.59#6.09"}]}
+{"ID": "6744292:S250", "Quadruplet": [{"Aspect": "圓形觸控板", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的很特別", "VA": "6.51#6.44"}]}
+{"ID": "6764325:S321", "Quadruplet": [{"Aspect": "觸控板面積", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "太棒", "VA": "5.15#5.54"}]}
+{"ID": "6709147:S006", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "高階很多", "VA": "5.87#6.01"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "便宜", "VA": "5.17#5.48"}, {"Aspect": "rogscar", "Category": "LAPTOP#GENERAL", "Opinion": "高階很多", "VA": "5.6#5.88"}]}
+{"ID": "6745361:S677", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "很香", "VA": "6.83#6.34"}]}
+{"ID": "6761323:S021", "Quadruplet": [{"Aspect": "gram系列的觸控板手感", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "算是同級中數一數二的好", "VA": "5.93#6.03"}]}
+{"ID": "7008316:S004", "Quadruplet": [{"Aspect": "華碩每過一年的整體外形工藝", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "更好一點", "VA": "5.6#5.9"}]}
+{"ID": "6976248:S003", "Quadruplet": []}
+{"ID": "6970249:S014", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好像還不錯", "VA": "5.97#5.7"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "好像還不錯", "VA": "5.88#5.79"}]}
+{"ID": "7029537:S008", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "推薦", "VA": "6.06#5.61"}]}
+{"ID": "6965011:S003", "Quadruplet": [{"Aspect": "lg的acer質感", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的很普", "VA": "5.91#5.99"}]}
+{"ID": "6973895:S034", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "誠意不足", "VA": "6.01#5.87"}]}
+{"ID": "6738095:S226", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "跟人都不錯", "VA": "6.27#6.05"}]}
+{"ID": "6758529:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PORTABILITY", "Opinion": "比較輕", "VA": "5.68#5.65"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "比較輕", "VA": "5.62#5.42"}]}
+{"ID": "6818071:S328", "Quadruplet": []}
+{"ID": "6952865:S068", "Quadruplet": [{"Aspect": "36,900元的筆電", "Category": "LAPTOP#GENERAL", "Opinion": "真的有競爭力", "VA": "6.03#6.09"}, {"Aspect": "36,900元的筆電", "Category": "LAPTOP#GENERAL", "Opinion": "有點興趣", "VA": "6.08#6.17"}]}
+{"ID": "6831457:S034", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很不錯", "VA": "7.01#6.35"}, {"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "夠大會想買", "VA": "5.98#5.77"}]}
+{"ID": "6893792:S098", "Quadruplet": [{"Aspect": "字體", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "太細拉", "VA": "6.72#6.42"}]}
+{"ID": "6730925:S002", "Quadruplet": [{"Aspect": "處理器", "Category": "LAPTOP#GENERAL", "Opinion": "我個人是不行", "VA": "5.3#5.67"}]}
+{"ID": "6957389:S003", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好一點", "VA": "6.53#6.08"}, {"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "比較好", "VA": "6.88#6.18"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "比較好", "VA": "6.53#5.88"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "較重", "VA": "5.99#5.45"}]}
+{"ID": "6770036:S435", "Quadruplet": [{"Aspect": "機身", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "俐落", "VA": "6.1#6.08"}, {"Aspect": "外接介面", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "豐富", "VA": "6.17#5.94"}]}
+{"ID": "6837781:S003", "Quadruplet": []}
+{"ID": "6935598:S073", "Quadruplet": [{"Aspect": "電玩效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "一級棒", "VA": "5.76#5.9"}]}
+{"ID": "6944839:S140", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "看起來很輕薄", "VA": "6.41#6.05"}]}
+{"ID": "6810173:S057", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "不算很輕", "VA": "5.99#5.91"}]}
+{"ID": "6756274:S040", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不聚何以聚人心", "VA": "5.06#5.17"}]}
+{"ID": "6833486:S016", "Quadruplet": [{"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "大", "VA": "5.67#5.68"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "超級輕", "VA": "5.79#5.74"}, {"Aspect": "續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "超長", "VA": "5.74#5.68"}, {"Aspect": "螢幕大重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "超級輕", "VA": "5.75#5.93"}]}
+{"ID": "7038735:S008", "Quadruplet": []}
+{"ID": "6793649:S005", "Quadruplet": [{"Aspect": "聲音", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "不好", "VA": "6.26#5.9"}]}
+{"ID": "6829147:S004", "Quadruplet": [{"Aspect": "充電器", "Category": "LAPTOP#PORTABILITY", "Opinion": "愈來愈小", "VA": "5.32#5.66"}]}
+{"ID": "6759304:S024", "Quadruplet": []}
+{"ID": "6781640:S009", "Quadruplet": [{"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "很不錯", "VA": "5.57#5.82"}, {"Aspect": "處理器", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "很強", "VA": "5.87#5.86"}, {"Aspect": "獨顯", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "很強", "VA": "6.04#6.05"}]}
+{"ID": "6932879:S022", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "很高", "VA": "5.84#6.26"}, {"Aspect": "設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很弱", "VA": "5.61#5.57"}]}
+{"ID": "6831457:S009", "Quadruplet": [{"Aspect": "筆電外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.25#5.79"}]}
+{"ID": "6932879:S044", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "就是棒", "VA": "6.29#6.03"}, {"Aspect": "msi", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "就是棒", "VA": "6.37#6.17"}, {"Aspect": "用料", "Category": "LAPTOP#PORTABILITY", "Opinion": "好", "VA": "6.27#5.95"}]}
+{"ID": "6895216:S008", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不太一樣", "VA": "5.65#5.46"}, {"Aspect": "tuf", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不太一樣", "VA": "5.65#5.57"}]}
+{"ID": "6769489:S117", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.44#5.97"}]}
+{"ID": "6935931:S001", "Quadruplet": [{"Aspect": "cp值", "Category": "LAPTOP#PRICE", "Opinion": "更高", "VA": "6.08#6.08"}]}
+{"ID": "6916554:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "太貴", "VA": "5.62#5.62"}]}
+{"ID": "6696296:S196", "Quadruplet": [{"Aspect": "色域覆蓋", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好像不如預期", "VA": "5.43#5.73"}]}
+{"ID": "6918097:S113", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很棒", "VA": "7.06#6.56"}, {"Aspect": "桌機等級", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的還不錯", "VA": "5.78#6.2"}]}
+{"ID": "6790340:S005", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "耗損", "VA": "5.86#5.41"}]}
+{"ID": "6933978:S007", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "一級棒", "VA": "6.77#6.26"}, {"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "真的很不錯", "VA": "6.79#6.31"}]}
+{"ID": "6818071:S246", "Quadruplet": [{"Aspect": "設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "看起來還是挺不錯", "VA": "6.25#6.12"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "精美", "VA": "5.64#6.1"}]}
+{"ID": "6803733:S005", "Quadruplet": []}
+{"ID": "6799971:S009", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "很夠用", "VA": "6.37#6.18"}, {"Aspect": "文書視訊", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "很夠用", "VA": "5.49#5.68"}]}
+{"ID": "6722990:S027", "Quadruplet": [{"Aspect": "效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "進化", "VA": "6.23#5.91"}, {"Aspect": "msi的筆電", "Category": "LAPTOP#GENERAL", "Opinion": "好難選擇", "VA": "5.72#6.02"}]}
+{"ID": "6993292:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PRICE", "Opinion": "比較香", "VA": "5.85#5.97"}]}
+{"ID": "6766896:S004", "Quadruplet": []}
+{"ID": "6845774:S108", "Quadruplet": [{"Aspect": "筆電速度", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "快", "VA": "5.85#5.84"}]}
+{"ID": "6981563:S008", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PORTABILITY", "Opinion": "更是完全沒有競品", "VA": "4.71#5.54"}, {"Aspect": "17吋", "Category": "LAPTOP#PORTABILITY", "Opinion": "更是完全沒有競品", "VA": "4.46#5.24"}]}
+{"ID": "6940405:S034", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "不錯", "VA": "5.95#5.91"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "好像有點不是很讓人接受", "VA": "5.22#6.05"}]}
+{"ID": "6817444:S037", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "有點貴", "VA": "5.94#5.99"}, {"Aspect": "筆電", "Category": "LAPTOP#GENERAL", "Opinion": "很難賣", "VA": "5.68#5.84"}]}
+{"ID": "6931799:S037", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很凶悍", "VA": "7.14#6.87"}, {"Aspect": "燈光效果", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "超讚", "VA": "6.43#6.19"}]}
+{"ID": "6956965:S401", "Quadruplet": [{"Aspect": "性價比", "Category": "LAPTOP#PRICE", "Opinion": "還算不錯", "VA": "6.05#6.01"}, {"Aspect": "造型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "樸實", "VA": "6.52#5.79"}]}
+{"ID": "6918097:S076", "Quadruplet": [{"Aspect": "配備", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "高規", "VA": "6.76#6.31"}]}
+{"ID": "6735165:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "差別不大", "VA": "5.3#5.58"}]}
+{"ID": "6763424:S009", "Quadruplet": [{"Aspect": "散熱", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "做得不錯", "VA": "5.29#5.62"}, {"Aspect": "散熱", "Category": "FANS_COOLING#GENERAL", "Opinion": "一直都做得不錯", "VA": "5.1#5.53"}]}
+{"ID": "7099724:S031", "Quadruplet": []}
+{"ID": "6798966:S010", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "吃太兇", "VA": "5.64#5.69"}, {"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "最好買", "VA": "6.82#6.24"}, {"Aspect": "win11記憶體", "Category": "MEMORY#DESIGN_FEATURES", "Opinion": "吃太兇", "VA": "5.25#5.59"}, {"Aspect": "cpu", "Category": "LAPTOP#GENERAL", "Opinion": "最好買", "VA": "6.25#5.97"}]}
+{"ID": "6892641:S012", "Quadruplet": []}
+{"ID": "6745361:S346", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "很旗艦", "VA": "5.08#5.94"}]}
+{"ID": "7078163:S016", "Quadruplet": [{"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "真的都差不多", "VA": "5.27#5.41"}]}
+{"ID": "7091887:S050", "Quadruplet": [{"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "有些小", "VA": "5.19#5.59"}]}
+{"ID": "7093910:S005", "Quadruplet": [{"Aspect": "速度", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "不會提升", "VA": "5.15#5.22"}]}
+{"ID": "7092051:S021", "Quadruplet": []}
+{"ID": "7109777:S010", "Quadruplet": [{"Aspect": "筆電", "Category": "LAPTOP#PORTABILITY", "Opinion": "輕薄", "VA": "6.61#6.03"}]}
+{"ID": "6783989:S001", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "很強", "VA": "6.55#6.48"}, {"Aspect": "cpu", "Category": "LAPTOP#GENERAL", "Opinion": "很強", "VA": "6.5#6.36"}]}
+{"ID": "6983090:S056", "Quadruplet": [{"Aspect": "微星筆電效能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "就是猛", "VA": "6.0#5.93"}]}
+{"ID": "6858804:S002", "Quadruplet": []}
+{"ID": "6738095:S568", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "很高", "VA": "5.21#5.84"}]}
+{"ID": "6727320:S004", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "那麼好", "VA": "6.61#6.19"}]}
+{"ID": "6985642:S035", "Quadruplet": [{"Aspect": "續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "贏很正常", "VA": "5.82#5.81"}, {"Aspect": "續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "會輸", "VA": "5.51#5.54"}]}
+{"ID": "6944839:S122", "Quadruplet": [{"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "真的是有輕薄", "VA": "5.71#5.73"}]}
+{"ID": "7105703:S100", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很剛好", "VA": "6.56#6.19"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "很剛好", "VA": "6.33#5.97"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "還算ok", "VA": "6.03#5.83"}]}
+{"ID": "6707403:S378", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "挺狠", "VA": "5.58#6.32"}]}
+{"ID": "6877733:S011", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "相對便宜", "VA": "5.14#5.85"}, {"Aspect": "機型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "太多太細緻", "VA": "5.55#5.84"}]}
+{"ID": "6791667:S005", "Quadruplet": [{"Aspect": "電流災情", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "好像蠻嚴重", "VA": "4.64#5.35"}]}
+{"ID": "6876865:S009", "Quadruplet": [{"Aspect": "觸控板", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "有夠小一個", "VA": "4.58#5.27"}]}
+{"ID": "6957949:S011", "Quadruplet": []}
+{"ID": "6984035:S003", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "最高級", "VA": "6.6#6.28"}, {"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "很可惜", "VA": "6.08#6.04"}, {"Aspect": "筆記型電腦裡面cpu", "Category": "LAPTOP#GENERAL", "Opinion": "很可惜", "VA": "5.73#5.91"}]}
+{"ID": "7072751:S011", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "感覺有點貴", "VA": "5.96#6.07"}, {"Aspect": "amd筆電cpu", "Category": "LAPTOP#GENERAL", "Opinion": "感覺不錯", "VA": "5.38#5.82"}]}
+{"ID": "6966145:S027", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "真的有夠香", "VA": "6.64#6.19"}]}
+{"ID": "7100595:S055", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "高貴", "VA": "4.67#5.52"}]}
+{"ID": "6777250:S182", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.36#5.82"}, {"Aspect": "價位", "Category": "LAPTOP#PRICE", "Opinion": "可以接受", "VA": "5.37#5.67"}]}
+{"ID": "6797250:S009", "Quadruplet": []}
+{"ID": "6929230:S174", "Quadruplet": [{"Aspect": "性能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "感覺不錯", "VA": "6.63#5.95"}]}
+{"ID": "6994867:S011", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "較高", "VA": "6.38#6.2"}, {"Aspect": "strix的cp", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "較高", "VA": "5.94#6.11"}, {"Aspect": "滿載功耗", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "比較大", "VA": "5.74#5.73"}]}
+{"ID": "6935598:S120", "Quadruplet": [{"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "頂", "VA": "6.36#6.17"}]}
+{"ID": "6826849:S006", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "比較高級", "VA": "6.37#6.52"}, {"Aspect": "thinkpad", "Category": "KEYBOARD#DESIGN_FEATURES", "Opinion": "比較高級", "VA": "5.8#6.14"}, {"Aspect": "p52散熱", "Category": "FANS_COOLING#GENERAL", "Opinion": "比較好看", "VA": "5.45#5.71"}]}
+{"ID": "7041612:S006", "Quadruplet": [{"Aspect": "幀數", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "較低", "VA": "4.67#5.33"}]}
+{"ID": "6946915:S111", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "便宜", "VA": "5.75#6.05"}, {"Aspect": "散熱", "Category": "FANS_COOLING#GENERAL", "Opinion": "不錯", "VA": "5.8#5.77"}]}
+{"ID": "6952865:S031", "Quadruplet": []}
+{"ID": "6872758:S012", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "比較好", "VA": "6.69#6.25"}]}
+{"ID": "7093960:S061", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好看", "VA": "6.95#6.17"}, {"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好看", "VA": "6.72#6.0"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "蠻強", "VA": "6.49#6.08"}]}
+{"ID": "6976248:S004", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "好看", "VA": "6.69#6.03"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "比較貴一點", "VA": "5.15#5.85"}]}
+{"ID": "6695137:S068", "Quadruplet": [{"Aspect": "acerpredator系列電競筆電", "Category": "LAPTOP#GENERAL", "Opinion": "good", "VA": "6.27#5.68"}]}
+{"ID": "6812980:S012", "Quadruplet": [{"Aspect": "螢幕", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "大", "VA": "6.16#5.8"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "輕", "VA": "6.04#5.38"}]}
+{"ID": "7072573:S005", "Quadruplet": []}
+{"ID": "6793121:S003", "Quadruplet": [{"Aspect": "續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "蠻長", "VA": "5.91#5.69"}, {"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "很輕", "VA": "5.93#5.6"}]}
+{"ID": "7011739:S007", "Quadruplet": [{"Aspect": "工作上使用", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很棒", "VA": "6.96#6.3"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很好", "VA": "6.87#6.32"}, {"Aspect": "規格", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很優秀", "VA": "6.87#6.27"}]}
+{"ID": "6714797:S013", "Quadruplet": []}
+{"ID": "6972394:S011", "Quadruplet": []}
+{"ID": "6908008:S065", "Quadruplet": [{"Aspect": "續航力", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "太讚", "VA": "6.4#5.98"}]}
+{"ID": "6917337:S020", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "中規中矩", "VA": "6.52#5.89"}, {"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "可惜", "VA": "6.5#5.77"}, {"Aspect": "材質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "容易沾指紋", "VA": "5.71#5.49"}]}
+{"ID": "6730399:S006", "Quadruplet": [{"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "強太多", "VA": "5.72#5.8"}]}
+{"ID": "6909643:S009", "Quadruplet": [{"Aspect": "散熱", "Category": "FANS_COOLING#OPERATION_PERFORMANCE", "Opinion": "不錯", "VA": "5.72#5.68"}]}
+{"ID": "6952865:S214", "Quadruplet": [{"Aspect": "邊框", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "越來越小", "VA": "6.37#6.25"}]}
+{"ID": "6893792:S005", "Quadruplet": [{"Aspect": "筆電質感", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "蠻好", "VA": "6.93#6.37"}]}
+{"ID": "6883884:S004", "Quadruplet": [{"Aspect": "內顯", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "強", "VA": "5.73#5.74"}]}
+{"ID": "7068641:S001", "Quadruplet": [{"Aspect": "華碩zenbook的外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "我都滿喜歡", "VA": "6.58#6.38"}]}
+{"ID": "6715499:S008", "Quadruplet": []}
+{"ID": "6823349:S020", "Quadruplet": [{"Aspect": "cpu", "Category": "LAPTOP#GENERAL", "Opinion": "強", "VA": "5.96#5.82"}]}
+{"ID": "7016434:S072", "Quadruplet": [{"Aspect": "售價", "Category": "LAPTOP#PRICE", "Opinion": "其實還可以", "VA": "4.92#5.49"}]}
+{"ID": "6924003:S019", "Quadruplet": [{"Aspect": "全鋁合金外殼", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的蠻好看", "VA": "6.27#6.32"}, {"Aspect": "功能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "蠻有趣", "VA": "7.12#6.69"}]}
+{"ID": "6936548:S006", "Quadruplet": []}
+{"ID": "6720888:S014", "Quadruplet": []}
+{"ID": "7021545:S098", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的蠻有設計感", "VA": "6.83#6.26"}, {"Aspect": "null", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "我好喜歡", "VA": "6.89#6.4"}, {"Aspect": "外型設計", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的蠻有設計感", "VA": "6.63#6.18"}]}
+{"ID": "6817848:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "比較夠用", "VA": "6.62#6.15"}]}
+{"ID": "6761611:S004", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "還可以接受", "VA": "5.06#5.74"}]}
+{"ID": "7105703:S181", "Quadruplet": [{"Aspect": "筆電功能", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "強大", "VA": "6.32#6.14"}]}
+{"ID": "6799106:S015", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "夠日常順順用", "VA": "6.1#6.08"}, {"Aspect": "cpu", "Category": "LAPTOP#GENERAL", "Opinion": "夠日常順順用", "VA": "5.97#5.96"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "不會太貴", "VA": "4.64#5.54"}]}
+{"ID": "6971263:S036", "Quadruplet": [{"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "不錯", "VA": "6.62#5.89"}, {"Aspect": "外型", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "看起來很知性", "VA": "6.96#6.18"}]}
+{"ID": "7102814:S022", "Quadruplet": [{"Aspect": "品質", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "差不多", "VA": "5.7#5.5"}, {"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "差不了多少", "VA": "5.58#5.15"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "就好", "VA": "5.13#5.72"}]}
+{"ID": "6806444:S019", "Quadruplet": [{"Aspect": "cpu顯卡配置", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "很高", "VA": "5.57#5.89"}, {"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "算便宜", "VA": "5.21#5.81"}]}
+{"ID": "7018230:S017", "Quadruplet": [{"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "好", "VA": "6.19#5.89"}, {"Aspect": "續航", "Category": "LAPTOP#OPERATION_PERFORMANCE", "Opinion": "輕薄", "VA": "5.99#5.76"}]}
+{"ID": "7037315:S004", "Quadruplet": [{"Aspect": "雙a牌的材料", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "真的都要坑死", "VA": "4.55#5.34"}]}
+{"ID": "7024955:S066", "Quadruplet": [{"Aspect": "c/p", "Category": "LAPTOP#GENERAL", "Opinion": "很高", "VA": "6.44#6.14"}, {"Aspect": "電競筆電", "Category": "LAPTOP#GENERAL", "Opinion": "很高", "VA": "6.31#6.25"}]}
+{"ID": "7096379:S013", "Quadruplet": []}
+{"ID": "6944905:S006", "Quadruplet": []}
+{"ID": "6783103:S045", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "感覺不錯", "VA": "6.36#5.89"}]}
+{"ID": "6734862:S051", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#GENERAL", "Opinion": "不錯的選擇", "VA": "5.83#5.69"}]}
+{"ID": "7105523:S002", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PRICE", "Opinion": "不錯", "VA": "5.58#5.67"}, {"Aspect": "售後", "Category": "LAPTOP#PRICE", "Opinion": "不錯", "VA": "5.25#5.62"}]}
+{"ID": "6886245:S004", "Quadruplet": []}
+{"ID": "6915462:S013", "Quadruplet": [{"Aspect": "外觀", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "看起來很好看輕", "VA": "6.82#6.18"}]}
+{"ID": "7105703:S019", "Quadruplet": [{"Aspect": "價格", "Category": "LAPTOP#PRICE", "Opinion": "不算太貴", "VA": "4.65#5.52"}]}
+{"ID": "6880567:S023", "Quadruplet": [{"Aspect": "螢幕解析度", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "有點low", "VA": "5.94#5.76"}]}
+{"ID": "6697182:S005", "Quadruplet": [{"Aspect": "oled面板", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "確實會好很多", "VA": "5.18#5.77"}, {"Aspect": "色彩", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "飽和鮮豔", "VA": "6.06#5.78"}]}
+{"ID": "6814656:S009", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "太低", "VA": "6.1#6.14"}, {"Aspect": "螢幕解析度", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "太低", "VA": "5.85#5.86"}]}
+{"ID": "6936548:S011", "Quadruplet": [{"Aspect": "yoga筆電", "Category": "LAPTOP#GENERAL", "Opinion": "蠻有吸引力", "VA": "5.73#5.83"}]}
+{"ID": "7040924:S001", "Quadruplet": [{"Aspect": "蓄電量", "Category": "LAPTOP#PORTABILITY", "Opinion": "有個八成就很厲害", "VA": "5.29#5.81"}, {"Aspect": "蓄電量", "Category": "LAPTOP#PORTABILITY", "Opinion": "很厲害", "VA": "5.48#5.85"}]}
+{"ID": "6771305:S012", "Quadruplet": [{"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "還蠻推", "VA": "6.31#6.3"}, {"Aspect": "null", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "相對比較高", "VA": "6.58#6.21"}, {"Aspect": "螢幕色準", "Category": "DISPLAY#DESIGN_FEATURES", "Opinion": "相對比較高", "VA": "6.16#6.0"}, {"Aspect": "基本文書使用", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "綽綽有餘", "VA": "5.75#5.93"}]}
+{"ID": "6745159:S006", "Quadruplet": [{"Aspect": "獨顯", "Category": "LAPTOP#DESIGN_FEATURES", "Opinion": "很輕", "VA": "5.64#5.75"}, {"Aspect": "3060", "Category": "GRAPHICS#OPERATION_PERFORMANCE", "Opinion": "應該更沒問題", "VA": "5.14#5.58"}]}
+{"ID": "7082330:S081", "Quadruplet": [{"Aspect": "重量", "Category": "LAPTOP#PORTABILITY", "Opinion": "算是降低", "VA": "5.04#5.26"}]}
+{"ID": "7093960:S006", "Quadruplet": [{"Aspect": "null", "Category": "LAPTOP#PRICE", "Opinion": "是重點", "VA": "5.36#5.57"}, {"Aspect": "swift16ai價格", "Category": "LAPTOP#PRICE", "Opinion": "是重點", "VA": "4.94#5.42"}]}

@@ -1,0 +1,8 @@
+{
+  "domain": "lap",
+  "val_rmse_holdout": 1.1277877538603804,
+  "aro_rmse_holdout": 0.6610235599545953,
+  "train_samples": 6502,
+  "holdout_samples": 1301,
+  "feature_cache": "postpreprocess/models/features/lap_train.pkl"
+}

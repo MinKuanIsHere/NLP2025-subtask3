@@ -1,0 +1,8 @@
+{
+  "domain": "res",
+  "val_rmse_holdout": 0.9882851993989125,
+  "aro_rmse_holdout": 0.6421281014675989,
+  "train_samples": 8523,
+  "holdout_samples": 1705,
+  "feature_cache": "postpreprocess/models/features/res_train.pkl"
+}
